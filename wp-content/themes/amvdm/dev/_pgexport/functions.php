@@ -154,7 +154,9 @@ if ( ! function_exists( 'amvdm_enqueue_scripts' ) ) :
     wp_deregister_script( 'modernizr' );
     wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/js/modernizr.min.js', false, null, true);
 
-    wp_enqueue_script( 'jquery' );
+    wp_deregister_script( 'jquery' );
+    wp_enqueue_script( 'jquery', get_template_directory_uri() . '/js/jquery-2.1.4.js', false, null, true);
+
     wp_deregister_script( 'jquerycountto' );
     wp_enqueue_script( 'jquerycountto', get_template_directory_uri() . '/js/jquery-countTo.js', false, null, true);
 

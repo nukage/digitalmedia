@@ -23,31 +23,6 @@
     </head>
     <body id="page-top" data-spy="scroll" data-target=".cbp-spmenu cbp-spmenu-vertical" data-offset="120" class="header-style-2">
         <!--loader-->
-        <nav class="navbar navbar-default" role="navigation"> 
-            <div class="container new-nav"> 
-                <div class="navbar-header"> 
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
-                        <span class="sr-only">Toggle navigation</span> 
-                        <span class="icon-bar"></span> 
-                        <span class="icon-bar"></span> 
-                        <span class="icon-bar"></span> 
-                    </button>                     
-                    <div class="navbar-header page-scroll"> 
-                        <a href="#" class="navbar-brand logo"><img class="img-responsive" alt="logo" src="images/amv-logo.png"></a> 
-                    </div>
-                </div>                 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
-                    <ul class="nav navbar-nav"> 
-                        <li class="active">
-                            <a href="#">Link</a>
-                        </li>                         
-                        <li>
-                            <a href="#">Link</a>
-                        </li>                         
-                    </ul>                     
-                </div>                 
-            </div>             
-        </nav>
         <div class="page-loader">
             <div class="loader"> 
                 <span class="dot dot_1"></span> 
@@ -64,11 +39,11 @@
                     <div class="row">
                         <div class="col-md-12">
                             <nav class="navbar navbar-default">
-                                <!-- <div class="navbar-header page-scroll"> 
-                                    <a href="#" class="navbar-brand logo"><img class="img-responsive" alt="logo" src="images/amv-logo.png"></a> 
-                                </div> -->
+                                <div class="navbar-header page-scroll"> 
+                                    <a href="#" class="navbar-brand logo"><img class="img-fluid" alt="logo" src="images/amv-logo.png"></a> 
+                                </div>
                                 <div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="fixed-collapse-navbar"> 
-                                    <a href="#" class="push_nav_brand"><img class="img-responsive" alt="logo" src="images/amv-logo.png"></a>
+                                    <a href="#" class="push_nav_brand"><img class="img-fluid" alt="logo" src="images/amv-logo.png"></a>
                                     <ul class="push_nav">
                                         <li class="hidden"> 
                                             <a href="#page-top" class="page-scroll"></a> 
@@ -121,7 +96,7 @@
                             <!-- LAYER NR. 1 -->
                             <p class="tp-caption sft tp-resizeme tp-caption tpfirst" data-x="center" data-y="130" data-speed="500" data-start="1000" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" style="z-index: 5;" wp-call-function="the_field('main_slogan')" wp-call-function-set="content">Stream Anything. Stream Everywhere.</p>
                             <!-- LAYER NR. 2 -->
-                            <h2 class="tp-caption fade tp-resizeme text-left" data-x="center" data-y="190" data-speed="500" data-start="1500" data-easing="Power3.easeInOut" data-elementdelay="0.05" data-endelementdelay="0.1" style="z-index: 9;" wp-call-function="the_field('main_title')" wp-call-function-set="content"> WHEN IT COMES TO LIVE EVENTS,<br>
+                            <h2 class="tp-caption fade tp-resizeme text-xs-left" data-x="center" data-y="190" data-speed="500" data-start="1500" data-easing="Power3.easeInOut" data-elementdelay="0.05" data-endelementdelay="0.1" style="z-index: 9;" wp-call-function="the_field('main_title')" wp-call-function-set="content"> WHEN IT COMES TO LIVE EVENTS,<br>
             WE'VE GOT YOU COVERED</h2>
                             <!-- LAYER NR. 3 -->
                             <p class="tp-caption sft tp-resizeme tplast" data-x="center" data-y="310" data-speed="500" data-start="2000" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" style="z-index: 5;" wp-call-function="the_field('main_subtitle')" wp-call-function-set="content">AMV Digital Media is the only glass-to-glass live video<br>
@@ -142,9 +117,9 @@
         <section id="about" class="top-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 text-center wow fadeIn">
+                    <div class="col-md-12 text-xs-center wow fadeIn">
                         <p class="title">Here's what we offer</p>
-                        <div class="divider">
+                        <div class="dropdown-divider">
                             <div class="dv-top"></div>
                             <div class="dv-middle"></div>
                             <div class="dv-bottom"></div>
@@ -154,15 +129,15 @@
                     <div class="col-xs-12 col-md-3">
                         <div class="row">
                             <div class="col-md-12 col-xs-6">
-                                <div class="canvas-box  magin-bottom text-right" data-wow-delay="0.3s"> 
-                                    <span class="text-center"><i class="icon icon-basic-laptop  color-style1"></i></span>
+                                <div class="canvas-box  magin-bottom text-xs-right" data-wow-delay="0.3s"> 
+                                    <span class="text-xs-center"><i class="icon icon-basic-laptop  color-style1"></i></span>
                                     <h4 class="color-style1">FULL-TIME SERVICES</h4>
                                     <p>Whether it's an OTT offering, or a full-time web channel, we can provide dedicated support to ensure you're always live.</p>
                                 </div>
                             </div>
                             <div class="col-md-12 col-xs-6">
-                                <div class="canvas-box  magin-bottom text-right" data-wow-delay="0"> 
-                                    <span class="text-center"><i class="icon icon-basic-keyboard color-style2"></i></span>
+                                <div class="canvas-box  magin-bottom text-xs-right" data-wow-delay="0"> 
+                                    <span class="text-xs-center"><i class="icon icon-basic-keyboard color-style2"></i></span>
                                     <h4 class="color-style2">AD HOC EVENTS</h4>
                                     <p>You can have your one-off events run by the same team that streams the Oscars, GRAMMYs, and Emmys. </p>
                                 </div>
@@ -175,15 +150,15 @@
                     <div class="col-xs-12 col-md-3">
                         <div class="row">
                             <div class="col-md-12 col-xs-6">
-                                <div class="canvas-box magin-bottom text-left" data-wow-delay="0.3s"> 
-                                    <span class="text-center"><i class="icon icon-basic-globe color-style2"></i></span>
+                                <div class="canvas-box magin-bottom text-xs-left" data-wow-delay="0.3s"> 
+                                    <span class="text-xs-center"><i class="icon icon-basic-globe color-style2"></i></span>
                                     <h4 class="color-style2">COLLOCATION</h4>
                                     <p>Whether you need a quarter rack or 50 racks, we've got the space to fit your needs. We have redundant power & ISPs.</p>
                                 </div>
                             </div>
                             <div class="col-md-12 col-xs-6">
-                                <div class="canvas-box magin-bottom text-left" data-wow-delay="0.3s"> 
-                                    <span class="text-center"><i class="icon icon-basic-mixer2  color-style1"></i></span>
+                                <div class="canvas-box magin-bottom text-xs-left" data-wow-delay="0.3s"> 
+                                    <span class="text-xs-center"><i class="icon icon-basic-mixer2  color-style1"></i></span>
                                     <h4 class="color-style1">CONSULTATION</h4>
                                     <p>We offer a variety of consultation services to help our customers become highly-proficient in all things streaming.</p>
                                 </div>
@@ -212,14 +187,14 @@
                                 <div class="row">
                                     <div class="col-md-6 col-xs-6">
                                         <div class="canvas-box  magin-bottom"> 
-                                            <span class="text-center"><i class="icon icon-basic-upload  color-style2"></i></span>
+                                            <span class="text-xs-center"><i class="icon icon-basic-upload  color-style2"></i></span>
                                             <h4 class="color-style2">ZURICH</h4>
                                             <p>AMV's most exclusive production truck is on the road and can enable multiple 4K HDR feeds.</p>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-xs-6">
                                         <div class="canvas-box  magin-bottom"> 
-                                            <span class="text-center"><i class="icon icon-basic-floppydisk  color-style1"></i></span>
+                                            <span class="text-xs-center"><i class="icon icon-basic-floppydisk  color-style1"></i></span>
                                             <h4 class="color-style1">BACKUP</h4>
                                             <p>We always have redundancy in place. The LiveU 600 powers AMVDM to provide backhaul for your 4K HEVC feed.</p>
                                         </div>
@@ -228,14 +203,14 @@
                                 <div class="row">
                                     <div class="col-md-6 col-xs-6">
                                         <div class="canvas-box  magin-bottom"> 
-                                            <span class="text-center"><i class="icon icon-basic-server-cloud color-style1"></i></span>
+                                            <span class="text-xs-center"><i class="icon icon-basic-server-cloud color-style1"></i></span>
                                             <h4 class="color-style1">ELEMENTAL</h4>
                                             <p>If we're going 4K, we're doing it with our Elemental encoders. Best-in-class and best in the business.</p>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-xs-6">
                                         <div class="canvas-box  magin-bottom"> 
-                                            <span class="text-center"><i class="icon icon-basic-webpage-multiple  color-style2"></i></span>
+                                            <span class="text-xs-center"><i class="icon icon-basic-webpage-multiple  color-style2"></i></span>
                                             <h4 class="color-style2">HTML5</h4>
                                             <p>Of course we need to display the end product, so we built the best HTML5 multi-angle video player in the market.</p>
                                         </div>
@@ -259,28 +234,28 @@
             <div class="container">
                 <div class="row number-counters"> 
                     <!-- first count item -->
-                    <div class="col-md-3 col-xs-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <div class="col-md-3 col-xs-6 col-xs-12 text-xs-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">
                         <div class="counters-item  row"> 
                             <i class="cin icon-basic-video"></i>
                             <h2><strong data-to="50000">0</strong></h2>
                             <p>LIVE EVENTS STREAMED</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-xs-6 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
+                    <div class="col-md-3 col-xs-6 text-xs-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
                         <div class="counters-item  row"> 
                             <i class=" icon icon-ecommerce-graph3 "></i>
                             <h2><strong data-to="1000000">0</strong></h2>
                             <p>CONCURRENT USERS</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-xs-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="900ms">
+                    <div class="col-md-3 col-xs-6 col-xs-12 text-xs-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="900ms">
                         <div class="counters-item  row"> 
                             <i class=" icon icon-basic-lock"></i>
                             <h2><strong data-to="99">0</strong></h2>
                             <p>% UPTIME</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-xs-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1200ms">
+                    <div class="col-md-3 col-xs-6 col-xs-12 text-xs-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1200ms">
                         <div class="counters-item  row"> 
                             <i class="icon icon-basic-alarm"></i>
                             <h2><strong>0</strong></h2>
@@ -296,9 +271,9 @@
         <section id="services" class="padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 text-center wow fadeIn">
+                    <div class="col-md-12 text-xs-center wow fadeIn">
                         <p class="title" wp-call-function="the_field('sc_subtitle')" wp-call-function-set="content">Reliability at scale</p>
-                        <div class="divider">
+                        <div class="dropdown-divider">
                             <div class="dv-top"></div>
                             <div class="dv-middle"></div>
                             <div class="dv-bottom"></div>
@@ -310,8 +285,8 @@
                     
                     </php>
                     <div class="col-md-4 col-sm-4" wp-if-custom>
-                        <div class="canvas-box  magin-bottom text-center"> 
-                            <span class="text-center"><i class="icon color-style1" wp-call-function="the_sub_field('icon');" wp-call-function-set="attr" wp-call-function-set-attr="class" wp-call-function-set-attr-append="true" wp-call-function-2="the_sub_field('color_style');" wp-call-function-2-set="attr" wp-call-function-2-set-attr="class" wp-call-function-2-set-attr-append="true"></i></span>
+                        <div class="canvas-box  magin-bottom text-xs-center"> 
+                            <span class="text-xs-center"><i class="icon color-style1" wp-call-function="the_sub_field('icon');" wp-call-function-set="attr" wp-call-function-set-attr="class" wp-call-function-set-attr-append="true" wp-call-function-2="the_sub_field('color_style');" wp-call-function-2-set="attr" wp-call-function-2-set-attr="class" wp-call-function-2-set-attr-append="true"></i></span>
                             <h4 class="color-style1" wp-call-function="the_sub_field('title')" wp-call-function-set="content">PROPRIETARY PLATFORM</h4>
                             <p wp-call-function="the_sub_field('subtitle')" wp-call-function-set="content">Our platform has helped power thousands of events in a simple and automated fashion.</p>
                         </div>
@@ -322,36 +297,36 @@
                     
                     </php>
                     <div class="col-md-4 col-sm-4" wp-loop-skip>
-                        <div class="canvas-box  magin-bottom text-center"> 
-                            <span class="text-center"><i class="icon icon-ecommerce-dollar color-style2"></i></span>
+                        <div class="canvas-box  magin-bottom text-xs-center"> 
+                            <span class="text-xs-center"><i class="icon icon-ecommerce-dollar color-style2"></i></span>
                             <h4 class="color-style2">AFFORDABILITY</h4>
                             <p>The more events you stream with us, the lower your per event price goes. It's that simple. </p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4" wp-loop-skip>
-                        <div class="canvas-box  magin-bottom text-center"> 
-                            <span class="text-center"><i class="icon icon-basic-globe  color-style1"></i></span>
+                        <div class="canvas-box  magin-bottom text-xs-center"> 
+                            <span class="text-xs-center"><i class="icon icon-basic-globe  color-style1"></i></span>
                             <h4 class="color-style1">ENDLESS POSSIBILITIES</h4>
                             <p>StreamCloud™ can pull from RTMP feeds, telephone couplers, satellite IRDs and more. If you have a feed, we can work with it.</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4" wp-loop-skip>
-                        <div class="canvas-box  magin-bottom text-center"> 
-                            <span class="text-center"><i class="icon icon-ecommerce-graph2 color-style2"></i></span>
+                        <div class="canvas-box  magin-bottom text-xs-center"> 
+                            <span class="text-xs-center"><i class="icon icon-ecommerce-graph2 color-style2"></i></span>
                             <h4 class="color-style2">ANALYTICS</h4>
                             <p>Get daily or monthly reports on your users, or utilize our player to get real-time analytics during your live events.</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4" wp-loop-skip>
-                        <div class="canvas-box  magin-bottom text-center"> 
-                            <span class="text-center"><i class="icon icon-basic-todo-txt  color-style1"></i></span>
+                        <div class="canvas-box  magin-bottom text-xs-center"> 
+                            <span class="text-xs-center"><i class="icon icon-basic-todo-txt  color-style1"></i></span>
                             <h4 class="color-style1">EASY ONBOARDING</h4>
                             <p>If you have a CMS, we can ingest your event schedule automatically. If not, we make it easy for you to schedule events through our portal.</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4" wp-loop-skip>
-                        <div class="canvas-box  magin-bottom text-center"> 
-                            <span class="text-center"><i class="icon icon-basic-lock color-style2"></i></span>
+                        <div class="canvas-box  magin-bottom text-xs-center"> 
+                            <span class="text-xs-center"><i class="icon icon-basic-lock color-style2"></i></span>
                             <h4 class="color-style2">99.999% UPTIME</h4>
                             <p>We focus heavily on redundancy and it has proven worthwhile. Our goal is to always be prepared for the worst-case-scenario.</p>
                         </div>
@@ -368,10 +343,10 @@
         <!--Our team-->
         <section id="our-team" class="padding">
             <div class="container">
-                <div class="row text-center">
+                <div class="row text-xs-center">
                     <div class="col-md-12 wow fadeIn">
                         <p class="title">Some of us</p>
-                        <div class="divider">
+                        <div class="dropdown-divider">
                             <div class="dv-top"></div>
                             <div class="dv-middle"></div>
                             <div class="dv-bottom"></div>
@@ -381,15 +356,15 @@
                     <div class="col-md-4 col-xs-6">
                         <div class="team-wrap">
                             <div class="team-image"> 
-                                <img src="images/staff/ian670x670.jpg" alt="Ian Dittbrenner" class="img-responsive">
+                                <img src="images/staff/ian670x670.jpg" alt="Ian Dittbrenner" class="img-fluid">
                                 <div class="overlay">
                                     <div class="overlay-inner">
                                         <ul class="social-link"> 
                                             <li>
-                                                <a href="https://www.linkedin.com/in/ian-dittbrenner-8638a94" target="_blank" class="text-center"><i class="fa fa-linkedin"></i><span></span></a>
+                                                <a href="https://www.linkedin.com/in/ian-dittbrenner-8638a94" target="_blank" class="text-xs-center"><i class="fa fa-linkedin"></i><span></span></a>
                                             </li>
                                             <li>
-                                                <a href="https://www.facebook.com/ian.dittbrenner" target="_blank" class="text-center"><i class="fa fa-facebook"></i><span></span></a>
+                                                <a href="https://www.facebook.com/ian.dittbrenner" target="_blank" class="text-xs-center"><i class="fa fa-facebook"></i><span></span></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -403,19 +378,19 @@
                     <div class="col-md-4 col-xs-6">
                         <div class="team-wrap">
                             <div class="team-image"> 
-                                <img src="images/staff/carl.jpg" alt="Carl Burmeister" class="img-responsive">
+                                <img src="images/staff/carl.jpg" alt="Carl Burmeister" class="img-fluid">
                                 <div class="overlay">
                                     <div class="overlay-inner">
                                         <ul class="social-link">
                                             <li>
-                                                <a href="https://www.linkedin.com/in/carl-burmeister-347bb716/" target="_blank" class="text-center"><i class="fa fa-linkedin"></i><span></span></a>
+                                                <a href="https://www.linkedin.com/in/carl-burmeister-347bb716/" target="_blank" class="text-xs-center"><i class="fa fa-linkedin"></i><span></span></a>
                                             </li>
                                             <li>
-                                                <a href="https://facebook.com/NAME" target="_blank" class="text-center"><i class="fa fa-facebook"></i><span></span></a>
+                                                <a href="https://facebook.com/NAME" target="_blank" class="text-xs-center"><i class="fa fa-facebook"></i><span></span></a>
                                             </li>
                                             <li>
-                                                <a href="https://twitter.com/NAME" target="_blank" class="text-center"><i class="fa fa-twitter"></i><span></span></a>
-                                            </li>                                                                                                                                                                                                                                                                                                                                                                                                             -->                 
+                                                <a href="https://twitter.com/NAME" target="_blank" class="text-xs-center"><i class="fa fa-twitter"></i><span></span></a>
+                                            </li>                                                                                                                                                                                                                                                                                                                     -->                 
                                         </ul>
                                     </div>
                                 </div>
@@ -442,16 +417,16 @@
         <section id="Portfolio" class="padding" data-wow-duration="500ms" data-wow-delay="900ms">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 text-center">
+                    <div class="col-md-12 text-xs-center">
                         <p class="title">Recent Projects</p>
-                        <div class="divider">
+                        <div class="dropdown-divider">
                             <div class="dv-top"></div>
                             <div class="dv-middle"></div>
                             <div class="dv-bottom"></div>
                         </div>
                         <h2 class="head-title">Some of Our Work</h2>
                         <div class="work-filter">
-                            <ul class="text-center">
+                            <ul class="text-xs-center">
                                 <li>
                                     <a href="javascript:;" data-filter="all" class="active filter">All</a>
                                 </li>
@@ -480,7 +455,7 @@
                                 <div class="col-md-4 col-xs-6 mix work-item award_shows">
                                     <div class="wrap-item">
                                         <div class="item-container">
-                                            <div class="overlay text-center">
+                                            <div class="overlay text-xs-center">
                                                 <div class="overlay-inner">
                                                     <h4 class="base">The Oscars</h4>
                                                     <div class="line"></div>
@@ -496,7 +471,7 @@
                                 <div class="col-md-4 col-xs-6 mix work-item corporate">
                                     <div class="wrap-item">
                                         <div class="item-container">
-                                            <div class="overlay text-center">
+                                            <div class="overlay text-xs-center">
                                                 <div class="overlay-inner">
                                                     <h4 class="base">Adobe MAX & SUMMIT</h4>
                                                     <div class="line"></div>
@@ -512,7 +487,7 @@
                                 <div class="col-md-4 col-xs-6 mix work-item consultation">
                                     <div class="wrap-item">
                                         <div class="item-container">
-                                            <div class="overlay text-center">
+                                            <div class="overlay text-xs-center">
                                                 <div class="overlay-inner">
                                                     <h4 class="base">Glass House</h4>
                                                     <div class="line"></div>
@@ -528,7 +503,7 @@
                                 <div class="col-md-4 col-xs-6 mix work-item award_shows">
                                     <div class="wrap-item">
                                         <div class="item-container">
-                                            <div class="overlay text-center">
+                                            <div class="overlay text-xs-center">
                                                 <div class="overlay-inner">
                                                     <h4 class="base">The GRAMMYs</h4>
                                                     <div class="line"></div>
@@ -544,7 +519,7 @@
                                 <div class="col-md-4 col-xs-6 mix work-item consultation">
                                     <div class="wrap-item">
                                         <div class="item-container">
-                                            <div class=" overlay text-center">
+                                            <div class=" overlay text-xs-center">
                                                 <div class="overlay-inner">
                                                     <h4 class="base">If I Can Dream</h4>
                                                     <div class="line"></div>
@@ -560,7 +535,7 @@
                                 <div class="col-md-4 col-xs-6 mix work-item full_time">
                                     <div class="wrap-item">
                                         <div class="item-container">
-                                            <div class="overlay text-center">
+                                            <div class="overlay text-xs-center">
                                                 <div class="overlay-inner">
                                                     <h4 class="base">Big Brother OTT</h4>
                                                     <div class="line"></div>
@@ -584,9 +559,9 @@
         <section id="client" class="padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 text-center">
+                    <div class="col-md-12 text-xs-center">
                         <p class="title">How we do what we do</p>
-                        <div class="divider">
+                        <div class="dropdown-divider">
                             <div class="dv-top"></div>
                             <div class="dv-middle"></div>
                             <div class="dv-bottom"></div>
@@ -621,9 +596,9 @@
         <section id="testinomial" class="padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 text-center">
+                    <div class="col-md-12 text-xs-center">
                         <p class="title">We work with some amazing people.</p>
-                        <div class="divider">
+                        <div class="dropdown-divider">
                             <div class="dv-top"></div>
                             <div class="dv-middle"></div>
                             <div class="dv-bottom"></div>
@@ -666,9 +641,9 @@
         <section id="contact" class="padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 text-left">
+                    <div class="col-md-12 text-xs-left">
                         <p class="title">Get in Touch</p>
-                        <div class="divider">
+                        <div class="dropdown-divider">
                             <div class="dv-top"></div>
                             <div class="dv-middle"></div>
                             <div class="dv-bottom"></div>
@@ -740,17 +715,17 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="pull-right footer-share">
+                        <div class="float-xs-right footer-share">
                             <a target="_blank" href="https://twitter.com/AMV_DM"><i class="fa fa-twitter"></i></a> 
                             <a href="https://www.linkedin.com/company/1042984" target="_blank"><i class="fa fa-linkedin"></i></a>
                         </div>
-                        <p class="pull-left copyright">COPYRIGHT (©) 2016 AMV Digital Media LLC </p>
+                        <p class="float-xs-left copyright">COPYRIGHT (©) 2016 AMV Digital Media LLC </p>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Footer -->         
-        <a href="#." class="go-top text-center show"><i class="fa fa-long-arrow-up"></i></a>
+        <a href="#." class="go-top text-xs-center show"><i class="fa fa-long-arrow-up"></i></a>
         <div id="moduleControl">
             <ul>
                 <li class="hidden">
@@ -851,8 +826,11 @@ Analytics"></a>
                         <div class="row">
                             <div class="col-md-12">
                                 <nav class="navbar navbar-default">
+                                    <div class="navbar-header page-scroll"> 
+                                        <a href="#" class="navbar-brand logo"><img class="img-fluid" alt="logo" src="images/amv-logo.png"></a> 
+                                    </div>
                                     <div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="fixed-collapse-navbar"> 
-                                        <a href="#" class="push_nav_brand"><img class="img-responsive" alt="logo" src="images/amv-logo.png"></a>
+                                        <a href="#" class="push_nav_brand"><img class="img-fluid" alt="logo" src="images/amv-logo.png"></a>
                                         <ul class="push_nav">
                                             <li class="hidden"> 
                                                 <a href="#page-top" class="page-scroll"></a> 
@@ -905,7 +883,7 @@ Analytics"></a>
                                 <!-- LAYER NR. 1 -->
                                 <p class="tp-caption sft tp-resizeme tp-caption tpfirst" data-x="center" data-y="130" data-speed="500" data-start="1000" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" style="z-index: 5;">Stream Anything. Stream Everywhere.</p>
                                 <!-- LAYER NR. 2 -->
-                                <h2 class="tp-caption fade tp-resizeme text-left" data-x="center" data-y="190" data-speed="500" data-start="1500" data-easing="Power3.easeInOut" data-elementdelay="0.05" data-endelementdelay="0.1" style="z-index: 9;"> WHEN IT COMES TO LIVE EVENTS,<br>
+                                <h2 class="tp-caption fade tp-resizeme text-xs-left" data-x="center" data-y="190" data-speed="500" data-start="1500" data-easing="Power3.easeInOut" data-elementdelay="0.05" data-endelementdelay="0.1" style="z-index: 9;"> WHEN IT COMES TO LIVE EVENTS,<br>
             WE'VE GOT YOU COVERED.</h2>
                                 <!-- LAYER NR. 3 -->
                                 <p class="tp-caption sft tp-resizeme tplast" data-x="center" data-y="310" data-speed="500" data-start="2000" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" style="z-index: 5;">AMV Digital Media is the only glass-to-glass live video<br>
@@ -926,9 +904,9 @@ Analytics"></a>
             <section id="about" class="top-padding">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12 text-center wow fadeIn">
+                        <div class="col-md-12 text-xs-center wow fadeIn">
                             <p class="title">Here's what we offer</p>
-                            <div class="divider">
+                            <div class="dropdown-divider">
                                 <div class="dv-top"></div>
                                 <div class="dv-middle"></div>
                                 <div class="dv-bottom"></div>
@@ -938,15 +916,15 @@ Analytics"></a>
                         <div class="col-xs-12 col-md-3">
                             <div class="row">
                                 <div class="col-md-12 col-xs-6">
-                                    <div class="canvas-box  magin-bottom text-right" data-wow-delay="0.3s"> 
-                                        <span class="text-center"><i class="icon icon-basic-laptop  color-style1"></i></span>
+                                    <div class="canvas-box  magin-bottom text-xs-right" data-wow-delay="0.3s"> 
+                                        <span class="text-xs-center"><i class="icon icon-basic-laptop  color-style1"></i></span>
                                         <h4 class="color-style1">FULL-TIME SERVICES</h4>
                                         <p>Whether it's an OTT offering, or a full-time web channel, we can provide dedicated support to ensure you're always live.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-12 col-xs-6">
-                                    <div class="canvas-box  magin-bottom text-right" data-wow-delay="0"> 
-                                        <span class="text-center"><i class="icon icon-basic-keyboard color-style2"></i></span>
+                                    <div class="canvas-box  magin-bottom text-xs-right" data-wow-delay="0"> 
+                                        <span class="text-xs-center"><i class="icon icon-basic-keyboard color-style2"></i></span>
                                         <h4 class="color-style2">AD HOC EVENTS</h4>
                                         <p>You can have your one-off events run by the same team that streams the Oscars, GRAMMYs, and Emmys. </p>
                                     </div>
@@ -959,15 +937,15 @@ Analytics"></a>
                         <div class="col-xs-12 col-md-3">
                             <div class="row">
                                 <div class="col-md-12 col-xs-6">
-                                    <div class="canvas-box magin-bottom text-left" data-wow-delay="0.3s"> 
-                                        <span class="text-center"><i class="icon icon-basic-globe color-style2"></i></span>
+                                    <div class="canvas-box magin-bottom text-xs-left" data-wow-delay="0.3s"> 
+                                        <span class="text-xs-center"><i class="icon icon-basic-globe color-style2"></i></span>
                                         <h4 class="color-style2">COLLOCATION</h4>
                                         <p>Whether you need a quarter rack or 50 racks, we've got the space to fit your needs. We have redundant power & ISPs.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-12 col-xs-6">
-                                    <div class="canvas-box magin-bottom text-left" data-wow-delay="0.3s"> 
-                                        <span class="text-center"><i class="icon icon-basic-mixer2  color-style1"></i></span>
+                                    <div class="canvas-box magin-bottom text-xs-left" data-wow-delay="0.3s"> 
+                                        <span class="text-xs-center"><i class="icon icon-basic-mixer2  color-style1"></i></span>
                                         <h4 class="color-style1">CONSULTATION</h4>
                                         <p>We offer a variety of consultation services to help our customers become highly-proficient in all things streaming.</p>
                                     </div>
@@ -996,14 +974,14 @@ Analytics"></a>
                                     <div class="row">
                                         <div class="col-md-6 col-xs-6">
                                             <div class="canvas-box  magin-bottom"> 
-                                                <span class="text-center"><i class="icon icon-basic-upload  color-style2"></i></span>
+                                                <span class="text-xs-center"><i class="icon icon-basic-upload  color-style2"></i></span>
                                                 <h4 class="color-style2">ZURICH</h4>
                                                 <p>AMV's most exclusive production truck is on the road and can enable multiple 4K HDR feeds.</p>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
                                             <div class="canvas-box  magin-bottom"> 
-                                                <span class="text-center"><i class="icon icon-basic-floppydisk  color-style1"></i></span>
+                                                <span class="text-xs-center"><i class="icon icon-basic-floppydisk  color-style1"></i></span>
                                                 <h4 class="color-style1">BACKUP</h4>
                                                 <p>We always have redundancy in place. The LiveU 600 powers AMVDM to provide backhaul for your 4K HEVC feed.</p>
                                             </div>
@@ -1012,14 +990,14 @@ Analytics"></a>
                                     <div class="row">
                                         <div class="col-md-6 col-xs-6">
                                             <div class="canvas-box  magin-bottom"> 
-                                                <span class="text-center"><i class="icon icon-basic-server-cloud color-style1"></i></span>
+                                                <span class="text-xs-center"><i class="icon icon-basic-server-cloud color-style1"></i></span>
                                                 <h4 class="color-style1">ELEMENTAL</h4>
                                                 <p>If we're going 4K, we're doing it with our Elemental encoders. Best-in-class and best in the business.</p>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
                                             <div class="canvas-box  magin-bottom"> 
-                                                <span class="text-center"><i class="icon icon-basic-webpage-multiple  color-style2"></i></span>
+                                                <span class="text-xs-center"><i class="icon icon-basic-webpage-multiple  color-style2"></i></span>
                                                 <h4 class="color-style2">HTML5</h4>
                                                 <p>Of course we need to display the end product, so we built the best HTML5 multi-angle video player in the market.</p>
                                             </div>
@@ -1043,28 +1021,28 @@ Analytics"></a>
                 <div class="container">
                     <div class="row number-counters"> 
                         <!-- first count item -->
-                        <div class="col-md-3 col-xs-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <div class="col-md-3 col-xs-6 col-xs-12 text-xs-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">
                             <div class="counters-item  row"> 
                                 <i class="cin icon-basic-video"></i>
                                 <h2><strong data-to="50000">0</strong></h2>
                                 <p>LIVE EVENTS STREAMED</p>
                             </div>
                         </div>
-                        <div class="col-md-3 col-xs-6 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
+                        <div class="col-md-3 col-xs-6 text-xs-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
                             <div class="counters-item  row"> 
                                 <i class=" icon icon-ecommerce-graph3 "></i>
                                 <h2><strong data-to="1000000">0</strong></h2>
                                 <p>CONCURRENT USERS</p>
                             </div>
                         </div>
-                        <div class="col-md-3 col-xs-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="900ms">
+                        <div class="col-md-3 col-xs-6 col-xs-12 text-xs-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="900ms">
                             <div class="counters-item  row"> 
                                 <i class=" icon icon-basic-lock"></i>
                                 <h2><strong data-to="99">0</strong></h2>
                                 <p>% UPTIME</p>
                             </div>
                         </div>
-                        <div class="col-md-3 col-xs-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1200ms">
+                        <div class="col-md-3 col-xs-6 col-xs-12 text-xs-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1200ms">
                             <div class="counters-item  row"> 
                                 <i class="icon icon-basic-alarm"></i>
                                 <h2><strong>0</strong></h2>
@@ -1080,9 +1058,9 @@ Analytics"></a>
             <section id="services" class="padding">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12 text-center wow fadeIn">
+                        <div class="col-md-12 text-xs-center wow fadeIn">
                             <p class="title">Reliability at scale</p>
-                            <div class="divider">
+                            <div class="dropdown-divider">
                                 <div class="dv-top"></div>
                                 <div class="dv-middle"></div>
                                 <div class="dv-bottom"></div>
@@ -1090,43 +1068,43 @@ Analytics"></a>
                             <h2 class="head-title">StreamCloud™</h2>
                         </div>
                         <div class="col-md-4 col-sm-4">
-                            <div class="canvas-box  magin-bottom text-center"> 
-                                <span class="text-center"><i class="icon icon-basic-smartphone  color-style1"></i></span>
+                            <div class="canvas-box  magin-bottom text-xs-center"> 
+                                <span class="text-xs-center"><i class="icon icon-basic-smartphone  color-style1"></i></span>
                                 <h4 class="color-style1">PROPRIETARY PLATFORM</h4>
                                 <p>Our platform has helped power thousands of events in a simple and automated fashion.</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4">
-                            <div class="canvas-box  magin-bottom text-center"> 
-                                <span class="text-center"><i class="icon icon-ecommerce-dollar color-style2"></i></span>
+                            <div class="canvas-box  magin-bottom text-xs-center"> 
+                                <span class="text-xs-center"><i class="icon icon-ecommerce-dollar color-style2"></i></span>
                                 <h4 class="color-style2">AFFORDABILITY</h4>
                                 <p>The more events you stream with us, the lower your per event price goes. It's that simple. </p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4">
-                            <div class="canvas-box  magin-bottom text-center"> 
-                                <span class="text-center"><i class="icon icon-basic-globe  color-style1"></i></span>
+                            <div class="canvas-box  magin-bottom text-xs-center"> 
+                                <span class="text-xs-center"><i class="icon icon-basic-globe  color-style1"></i></span>
                                 <h4 class="color-style1">ENDLESS POSSIBILITIES</h4>
                                 <p>StreamCloud™ can pull from RTMP feeds, telephone couplers, satellite IRDs and more. If you have a feed, we can work with it.</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4">
-                            <div class="canvas-box  magin-bottom text-center"> 
-                                <span class="text-center"><i class="icon icon-ecommerce-graph2 color-style2"></i></span>
+                            <div class="canvas-box  magin-bottom text-xs-center"> 
+                                <span class="text-xs-center"><i class="icon icon-ecommerce-graph2 color-style2"></i></span>
                                 <h4 class="color-style2">ANALYTICS</h4>
                                 <p>Get daily or monthly reports on your users, or utilize our player to get real-time analytics during your live events.</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4">
-                            <div class="canvas-box  magin-bottom text-center"> 
-                                <span class="text-center"><i class="icon icon-basic-todo-txt  color-style1"></i></span>
+                            <div class="canvas-box  magin-bottom text-xs-center"> 
+                                <span class="text-xs-center"><i class="icon icon-basic-todo-txt  color-style1"></i></span>
                                 <h4 class="color-style1">EASY ONBOARDING</h4>
                                 <p>If you have a CMS, we can ingest your event schedule automatically. If not, we make it easy for you to schedule events through our portal.</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4">
-                            <div class="canvas-box  magin-bottom text-center"> 
-                                <span class="text-center"><i class="icon icon-basic-lock color-style2"></i></span>
+                            <div class="canvas-box  magin-bottom text-xs-center"> 
+                                <span class="text-xs-center"><i class="icon icon-basic-lock color-style2"></i></span>
                                 <h4 class="color-style2">99.999% UPTIME</h4>
                                 <p>We focus heavily on redundancy and it has proven worthwhile. Our goal is to always be prepared for the worst-case-scenario.</p>
                             </div>
@@ -1143,10 +1121,10 @@ Analytics"></a>
             <!--Our team-->
             <section id="our-team" class="padding">
                 <div class="container">
-                    <div class="row text-center">
+                    <div class="row text-xs-center">
                         <div class="col-md-12 wow fadeIn">
                             <p class="title">Some of us</p>
-                            <div class="divider">
+                            <div class="dropdown-divider">
                                 <div class="dv-top"></div>
                                 <div class="dv-middle"></div>
                                 <div class="dv-bottom"></div>
@@ -1156,15 +1134,15 @@ Analytics"></a>
                         <div class="col-md-4 col-xs-6">
                             <div class="team-wrap">
                                 <div class="team-image"> 
-                                    <img src="images/staff/ian670x670.jpg" alt="Ian Dittbrenner" class="img-responsive">
+                                    <img src="images/staff/ian670x670.jpg" alt="Ian Dittbrenner" class="img-fluid">
                                     <div class="overlay">
                                         <div class="overlay-inner">
                                             <ul class="social-link"> 
                                                 <li>
-                                                    <a href="https://www.linkedin.com/in/ian-dittbrenner-8638a94" target="_blank" class="text-center"><i class="fa fa-linkedin"></i><span></span></a>
+                                                    <a href="https://www.linkedin.com/in/ian-dittbrenner-8638a94" target="_blank" class="text-xs-center"><i class="fa fa-linkedin"></i><span></span></a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://www.facebook.com/ian.dittbrenner" target="_blank" class="text-center"><i class="fa fa-facebook"></i><span></span></a>
+                                                    <a href="https://www.facebook.com/ian.dittbrenner" target="_blank" class="text-xs-center"><i class="fa fa-facebook"></i><span></span></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1178,19 +1156,19 @@ Analytics"></a>
                         <div class="col-md-4 col-xs-6">
                             <div class="team-wrap">
                                 <div class="team-image"> 
-                                    <img src="images/staff/carl.jpg" alt="Carl Burmeister" class="img-responsive">
+                                    <img src="images/staff/carl.jpg" alt="Carl Burmeister" class="img-fluid">
                                     <div class="overlay">
                                         <div class="overlay-inner">
                                             <ul class="social-link">
                                                 <li>
-                                                    <a href="https://www.linkedin.com/in/carl-burmeister-347bb716/" target="_blank" class="text-center"><i class="fa fa-linkedin"></i><span></span></a>
+                                                    <a href="https://www.linkedin.com/in/carl-burmeister-347bb716/" target="_blank" class="text-xs-center"><i class="fa fa-linkedin"></i><span></span></a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://facebook.com/NAME" target="_blank" class="text-center"><i class="fa fa-facebook"></i><span></span></a>
+                                                    <a href="https://facebook.com/NAME" target="_blank" class="text-xs-center"><i class="fa fa-facebook"></i><span></span></a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://twitter.com/NAME" target="_blank" class="text-center"><i class="fa fa-twitter"></i><span></span></a>
-                                                </li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         -->                 
+                                                    <a href="https://twitter.com/NAME" target="_blank" class="text-xs-center"><i class="fa fa-twitter"></i><span></span></a>
+                                                </li>                                                                                                                                                                                                                                                                                                                                                                                         -->                 
                                             </ul>
                                         </div>
                                     </div>
@@ -1217,16 +1195,16 @@ Analytics"></a>
             <section id="Portfolio" class="padding" data-wow-duration="500ms" data-wow-delay="900ms">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12 text-center">
+                        <div class="col-md-12 text-xs-center">
                             <p class="title">Recent Projects</p>
-                            <div class="divider">
+                            <div class="dropdown-divider">
                                 <div class="dv-top"></div>
                                 <div class="dv-middle"></div>
                                 <div class="dv-bottom"></div>
                             </div>
                             <h2 class="head-title">Some of Our Work</h2>
                             <div class="work-filter">
-                                <ul class="text-center">
+                                <ul class="text-xs-center">
                                     <li>
                                         <a href="javascript:;" data-filter="all" class="active filter">All</a>
                                     </li>
@@ -1255,7 +1233,7 @@ Analytics"></a>
                                     <div class="col-md-4 col-xs-6 mix work-item award_shows">
                                         <div class="wrap-item">
                                             <div class="item-container">
-                                                <div class="overlay text-center">
+                                                <div class="overlay text-xs-center">
                                                     <div class="overlay-inner">
                                                         <h4 class="base">The Oscars</h4>
                                                         <div class="line"></div>
@@ -1271,7 +1249,7 @@ Analytics"></a>
                                     <div class="col-md-4 col-xs-6 mix work-item corporate">
                                         <div class="wrap-item">
                                             <div class="item-container">
-                                                <div class="overlay text-center">
+                                                <div class="overlay text-xs-center">
                                                     <div class="overlay-inner">
                                                         <h4 class="base">Adobe MAX & SUMMIT</h4>
                                                         <div class="line"></div>
@@ -1287,7 +1265,7 @@ Analytics"></a>
                                     <div class="col-md-4 col-xs-6 mix work-item consultation">
                                         <div class="wrap-item">
                                             <div class="item-container">
-                                                <div class="overlay text-center">
+                                                <div class="overlay text-xs-center">
                                                     <div class="overlay-inner">
                                                         <h4 class="base">Glass House</h4>
                                                         <div class="line"></div>
@@ -1303,7 +1281,7 @@ Analytics"></a>
                                     <div class="col-md-4 col-xs-6 mix work-item award_shows">
                                         <div class="wrap-item">
                                             <div class="item-container">
-                                                <div class="overlay text-center">
+                                                <div class="overlay text-xs-center">
                                                     <div class="overlay-inner">
                                                         <h4 class="base">The GRAMMYs</h4>
                                                         <div class="line"></div>
@@ -1319,7 +1297,7 @@ Analytics"></a>
                                     <div class="col-md-4 col-xs-6 mix work-item consultation">
                                         <div class="wrap-item">
                                             <div class="item-container">
-                                                <div class=" overlay text-center">
+                                                <div class=" overlay text-xs-center">
                                                     <div class="overlay-inner">
                                                         <h4 class="base">If I Can Dream</h4>
                                                         <div class="line"></div>
@@ -1335,7 +1313,7 @@ Analytics"></a>
                                     <div class="col-md-4 col-xs-6 mix work-item full_time">
                                         <div class="wrap-item">
                                             <div class="item-container">
-                                                <div class="overlay text-center">
+                                                <div class="overlay text-xs-center">
                                                     <div class="overlay-inner">
                                                         <h4 class="base">Big Brother OTT</h4>
                                                         <div class="line"></div>
@@ -1359,9 +1337,9 @@ Analytics"></a>
             <section id="client" class="padding">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12 text-center">
+                        <div class="col-md-12 text-xs-center">
                             <p class="title">How we do what we do</p>
-                            <div class="divider">
+                            <div class="dropdown-divider">
                                 <div class="dv-top"></div>
                                 <div class="dv-middle"></div>
                                 <div class="dv-bottom"></div>
@@ -1396,9 +1374,9 @@ Analytics"></a>
             <section id="testinomial" class="padding">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12 text-center">
+                        <div class="col-md-12 text-xs-center">
                             <p class="title">We work with some amazing people.</p>
-                            <div class="divider">
+                            <div class="dropdown-divider">
                                 <div class="dv-top"></div>
                                 <div class="dv-middle"></div>
                                 <div class="dv-bottom"></div>
@@ -1441,9 +1419,9 @@ Analytics"></a>
             <section id="contact" class="padding">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12 text-left">
+                        <div class="col-md-12 text-xs-left">
                             <p class="title">Get in Touch</p>
-                            <div class="divider">
+                            <div class="dropdown-divider">
                                 <div class="dv-top"></div>
                                 <div class="dv-middle"></div>
                                 <div class="dv-bottom"></div>
@@ -1515,17 +1493,17 @@ Analytics"></a>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="pull-right footer-share">
+                            <div class="float-xs-right footer-share">
                                 <a target="_blank" href="https://twitter.com/AMV_DM"><i class="fa fa-twitter"></i></a> 
                                 <a href="https://www.linkedin.com/company/1042984" target="_blank"><i class="fa fa-linkedin"></i></a>
                             </div>
-                            <p class="pull-left copyright">COPYRIGHT (©) 2016 AMV Digital Media LLC </p>
+                            <p class="float-xs-left copyright">COPYRIGHT (©) 2016 AMV Digital Media LLC </p>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Footer -->             
-            <a href="#." class="go-top text-center show"><i class="fa fa-long-arrow-up"></i></a>
+            <a href="#." class="go-top text-xs-center show"><i class="fa fa-long-arrow-up"></i></a>
             <div id="moduleControl">
                 <ul>
                     <li class="hidden">

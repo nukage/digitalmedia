@@ -7,6 +7,31 @@
 <?php get_header(); ?>
 
         <!--loader-->
+        <nav class="navbar navbar-default" role="navigation"> 
+            <div class="container new-nav"> 
+                <div class="navbar-header"> 
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
+                        <span class="sr-only"><?php _e( 'Toggle navigation', 'amvdm' ); ?></span> 
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span> 
+                    </button>                     
+                    <div class="navbar-header page-scroll"> 
+                        <a href="#" class="navbar-brand logo"><img class="img-responsive" alt="logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/amv-logo.png"></a> 
+                    </div>
+                </div>                 
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
+                    <ul class="nav navbar-nav"> 
+                        <li class="active">
+                            <a href="#"><?php _e( 'Link', 'amvdm' ); ?></a>
+                        </li>                         
+                        <li>
+                            <a href="#"><?php _e( 'Link', 'amvdm' ); ?></a>
+                        </li>                         
+                    </ul>                     
+                </div>                 
+            </div>             
+        </nav>
         <div class="page-loader">
             <div class="loader"> 
                 <span class="dot dot_1"></span> 
@@ -23,9 +48,9 @@
                     <div class="row">
                         <div class="col-md-12">
                             <nav class="navbar navbar-default">
-                                <div class="navbar-header page-scroll"> 
-                                    <a href="#" class="navbar-brand logo"><img class="img-responsive" alt="logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/amv-logo.png"></a> 
-                                </div>
+                                <!-- <div class="navbar-header page-scroll"> 
+                                    <a href="#" class="navbar-brand logo"><img class="img-responsive" alt="logo" src="images/amv-logo.png"></a> 
+                                </div> -->
                                 <div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="fixed-collapse-navbar"> 
                                     <a href="#" class="push_nav_brand"><img class="img-responsive" alt="logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/amv-logo.png"></a>
                                     <ul class="push_nav">
@@ -105,7 +130,7 @@
                             <div class="dv-middle"></div>
                             <div class="dv-bottom"></div>
                         </div>
-                        <h2 class="head-title"><?php _e( 'Fully-Managed Video Spleens', 'amvdm' ); ?></h2>
+                        <h2 class="head-title"><?php _e( 'Fully-Managed Video Streams', 'amvdm' ); ?></h2>
                     </div>
                     <div class="col-xs-12 col-md-3">
                         <div class="row">
@@ -177,7 +202,7 @@
                                         <div class="canvas-box  magin-bottom"> 
                                             <span class="text-center"><i class="icon icon-basic-floppydisk  color-style1"></i></span>
                                             <h4 class="color-style1"><?php _e( 'BACKUP', 'amvdm' ); ?></h4>
-                                            <p class="bg-primary"><?php _e( 'We always have redundancy in place. The LiveU 600 powers AMVDM to provide backhaul for your 4K HEVC feed.', 'amvdm' ); ?></p>
+                                            <p><?php _e( 'We always have redundancy in place. The LiveU 600 powers AMVDM to provide backhaul for your 4K HEVC feed.', 'amvdm' ); ?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -264,7 +289,7 @@
                     <?php
                         while (have_rows('streamcloud')) : the_row()
 
-                     ?>
+                    ?>
                     <div class="col-md-4 col-sm-4">
                         <div class="canvas-box  magin-bottom text-center"> 
                             <span class="text-center"><i class="icon color-style1 <?php the_sub_field('icon'); ?> <?php the_sub_field('color_style'); ?>"></i></span>
@@ -276,7 +301,7 @@
                         endwhile;
 
 
-                     ?> 
+                    ?> 
                 </div>
                 <div class="row">
                     <div class="btn-more"> 
@@ -336,7 +361,7 @@
                                             </li>
                                             <li>
                                                 <a href="https://twitter.com/NAME" target="_blank" class="text-center"><i class="fa fa-twitter"></i><span></span></a>
-                                            </li>                                                                                                                                                                                 -->                 
+                                            </li>                                                                                                                                                                                                                                                                                                                                                                                                             -->                 
                                         </ul>
                                     </div>
                                 </div>
@@ -352,14 +377,14 @@
         <!--Our team-->         
         <!-- Work Portfolio -->
         <!-- Hidden images for the gallery sections -->
-        <a class="fancybox portfolio-btn" data-fancybox-group="adobe" title="Additional feed to Youtube Live with Closed-Captions" href="images/portfolio/max2.jpg"></a>
-        <a class="fancybox portfolio-btn" data-fancybox-group="grammys" href="images/portfolio/grammys2.jpg"></a>
-        <a class="fancybox portfolio-btn" data-fancybox-group="grammys" href="images/portfolio/grammys3.jpg"></a>
-        <a class="fancybox portfolio-btn" data-fancybox-group="iicd" href="images/portfolio/iicd2.jpg"></a>
-        <a class="fancybox portfolio-btn" data-fancybox-group="glasshouse" href="images/portfolio/glasshouse2.jpg"></a>
-        <a class="fancybox portfolio-btn" data-fancybox-group="oscars" href="images/portfolio/oscars2.jpg"></a>
-        <a class="fancybox portfolio-btn" data-fancybox-group="oscars" href="images/portfolio/oscars3.jpg"></a>
-        <a class="fancybox portfolio-btn" data-fancybox-group="oscars" href="images/portfolio/oscars4.jpg"></a>
+        <a class="fancybox portfolio-btn" data-fancybox-group="adobe" title="Additional feed to Youtube Live with Closed-Captions" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/max2.jpg"></a>
+        <a class="fancybox portfolio-btn" data-fancybox-group="grammys" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/grammys2.jpg"></a>
+        <a class="fancybox portfolio-btn" data-fancybox-group="grammys" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/grammys3.jpg"></a>
+        <a class="fancybox portfolio-btn" data-fancybox-group="iicd" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/iicd2.jpg"></a>
+        <a class="fancybox portfolio-btn" data-fancybox-group="glasshouse" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/glasshouse2.jpg"></a>
+        <a class="fancybox portfolio-btn" data-fancybox-group="oscars" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/oscars2.jpg"></a>
+        <a class="fancybox portfolio-btn" data-fancybox-group="oscars" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/oscars3.jpg"></a>
+        <a class="fancybox portfolio-btn" data-fancybox-group="oscars" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/oscars4.jpg"></a>
         <section id="Portfolio" class="padding" data-wow-duration="500ms" data-wow-delay="900ms">
             <div class="container">
                 <div class="row">
@@ -406,11 +431,11 @@
                                                     <h4 class="base"><?php _e( 'The Oscars', 'amvdm' ); ?></h4>
                                                     <div class="line"></div>
                                                     <p><?php _e( 'Transmission from venue, encoding & CDN delivery', 'amvdm' ); ?></p>
-                                                    <a class="fancybox portfolio-btn" data-fancybox-group="oscars" href="<?= get_template_directory_uri() ?>/images/portfolio/oscars1.jpg" title=""><i class="icon icon-basic-picture-multiple"></i></a>
+                                                    <a class="fancybox portfolio-btn" data-fancybox-group="oscars" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/oscars1.jpg" title=""><i class="icon icon-basic-picture-multiple"></i></a>
                                                     <!--<a href="project_details.html" class="portfolio-btn"><i class="icon icon-basic-link"></i></a> -->
                                                 </div>
                                             </div>
-                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio/oscars.jpg" alt="The Oscars"/> 
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio/oscars.jpg" alt="The Oscars"/>
                                         </div>
                                     </div>
                                 </div>
@@ -423,7 +448,7 @@
                                                     <div class="line"></div>
                                                     <p><?php _e( 'Transmission from venue, encoding & CDN delivery', 'amvdm' ); ?></p>
                                                     <!--  <a href="project_details.html" class="portfolio-btn"><i class="icon icon-basic-link"></i></a>-->
-                                                    <a class="fancybox portfolio-btn" data-fancybox-group="adobe" href="<?= get_template_directory_uri() ?>/images/portfolio/max1.jpg" title="Main Adobe Max HD feed. 2 day show. Custom Primetime player we built."><i class="icon icon-basic-picture-multiple"></i></a>
+                                                    <a class="fancybox portfolio-btn" data-fancybox-group="adobe" title="Main Adobe Max HD feed. 2 day show. Custom Primetime player we built." href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/max1.jpg"><i class="icon icon-basic-picture-multiple"></i></a>
                                                 </div>
                                             </div>
                                             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio/adobe.jpg" alt="Adobe"/> 
@@ -438,7 +463,7 @@
                                                     <h4 class="base"><?php _e( 'Glass House', 'amvdm' ); ?></h4>
                                                     <div class="line"></div>
                                                     <p><?php _e( 'Custom Development & Consultation', 'amvdm' ); ?></p>
-                                                    <a class="fancybox portfolio-btn" data-fancybox-group="glasshouse" href="<?= get_template_directory_uri() ?>/images/portfolio/glasshouse1.jpg" title=""><i class="icon icon-basic-picture-multiple"></i></a>
+                                                    <a class="fancybox portfolio-btn" data-fancybox-group="glasshouse" title="" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/glasshouse1.jpg"><i class="icon icon-basic-picture-multiple"></i></a>
                                                     <!--    <a href="project_details.html" class="portfolio-btn"><i class="icon icon-basic-link"></i></a>-->
                                                 </div>
                                             </div>
@@ -454,7 +479,7 @@
                                                     <h4 class="base"><?php _e( 'The GRAMMYs', 'amvdm' ); ?></h4>
                                                     <div class="line"></div>
                                                     <p><?php _e( 'Production, Transmission, encoding & CDN delivery', 'amvdm' ); ?></p>
-                                                    <a class="fancybox portfolio-btn" data-fancybox-group="grammys" href="<?= get_template_directory_uri() ?>/images/portfolio/grammys1.jpg" title=""><i class="icon icon-basic-picture-multiple"></i></a>
+                                                    <a class="fancybox portfolio-btn" data-fancybox-group="grammys" title="" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/grammys1.jpg"><i class="icon icon-basic-picture-multiple"></i></a>
                                                     <!--   <a href="project_details.html" class="portfolio-btn"><i class="icon icon-basic-link"></i></a>-->
                                                 </div>
                                             </div>
@@ -470,7 +495,7 @@
                                                     <h4 class="base"><?php _e( 'If I Can Dream', 'amvdm' ); ?></h4>
                                                     <div class="line"></div>
                                                     <p><?php _e( 'Custom Development & Consultation', 'amvdm' ); ?></p>
-                                                    <a class="fancybox portfolio-btn" data-fancybox-group="iicd" href="<?php echo get_template_directory_uri() ?>/images/portfolio/iicd1.jpg" title="Custom website. 67 live 24/7 feeds"><i class="icon icon-basic-picture-multiple"></i></a>
+                                                    <a class="fancybox portfolio-btn" data-fancybox-group="iicd" title="Custom website. 67 live 24/7 feeds" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/iicd1.jpg"><i class="icon icon-basic-picture-multiple"></i></a>
                                                     <!--    <a href="project_details.html" class="portfolio-btn"><i class="icon icon-basic-link"></i></a>-->
                                                 </div>
                                             </div>
@@ -486,7 +511,7 @@
                                                     <h4 class="base"><?php _e( 'Big Brother OTT', 'amvdm' ); ?></h4>
                                                     <div class="line"></div>
                                                     <p><?php _e( 'Full-time service', 'amvdm' ); ?></p>
-                                                    <a class="fancybox portfolio-btn" data-fancybox-group="bigbrother" href="<?= get_template_directory_uri() ?>/images/portfolio/bigbrotherOTT.jpg" title=""><i class="icon icon-basic-picture"></i></a>
+                                                    <a class="fancybox portfolio-btn" data-fancybox-group="bigbrother" title="" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/bigbrotherOTT.jpg"><i class="icon icon-basic-picture"></i></a>
                                                     <!--   <a href="project_details.html" class="portfolio-btn"><i class="icon icon-basic-link"></i></a>-->
                                                 </div>
                                             </div>

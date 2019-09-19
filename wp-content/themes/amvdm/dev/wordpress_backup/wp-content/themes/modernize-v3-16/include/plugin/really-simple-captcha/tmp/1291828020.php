@@ -1,1 +1,0 @@
-<?php $captcha = "RMF2P"; ?>

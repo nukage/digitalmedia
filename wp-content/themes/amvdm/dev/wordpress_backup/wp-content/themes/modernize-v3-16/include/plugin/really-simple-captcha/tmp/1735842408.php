@@ -1,1 +1,0 @@
-<?php $captcha = "BE6XJ"; ?>

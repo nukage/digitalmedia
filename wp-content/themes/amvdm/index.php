@@ -1,5 +1,88 @@
 <?php get_header(); ?>
 
+        <nav class="navbar navbar1 navbar-toggleable-xl navbar-inverse bg-inverse">
+            <div class="container">
+                <div class="navbar-collapse collapse" id="navbar1" aria-expanded="true" style="">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="">
+                            <a class="phone" href="tel:2127271234"><?php _e( '(212) 727-1234', 'amvdm' ); ?></a>
+                        </li>
+                        <li class="nav-item hidden-sm-down">
+                            <a class="email" href="mailto:contact@amvchelsea.com" target="_blank"><?php _e( 'CONTACT@AMVCHELSEA.COM', 'amvdm' ); ?></a>
+                        </li>
+                    </ul>
+                    <form role="search" method="get" action="http://amv.local" class="customsearchbar1 form-inline my-2 my-lg-0 hidden-md-down">
+                        <input name="s" id="s" class="form-control" type="text" placeholder="Search">
+                        <button class="btn  my-2 my-sm-0" type="submit">
+                            <?php _e( 'Search', 'amvdm' ); ?>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar2 navbar-toggleable-md navbar-inverse justify-content-between">
+            <div class="container">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2" aria-controls="navbarsExampleDefault" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="http://amv.local"><?php _e( 'All Mobile Video', 'amvdm' ); ?></a>
+                <div class="navbar-collapse collapse " id="navbar2" aria-expanded="true" style="">
+                    <ul class="nav  navbar-nav  nav-pills nav-fill  w-100 align-items-sta">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="mobile-rentals" href="http://amv.local/mobile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php _e( 'Mobile', 'amvdm' ); ?><span class="sr-only"><?php _e( '(current)', 'amvdm' ); ?></span> </a>
+                            <div class="dropdown-menu" aria-labelledby="mobile">
+                                <a class="dropdown-item" href="http://amv.local/mobile"><?php _e( 'Full Fleet', 'amvdm' ); ?></a>
+                                <a class="dropdown-item" href="http://amv.local/mobile/#mputype=mputype-production&amp;scroll=1"><?php _e( 'Production', 'amvdm' ); ?></a>
+                                <a class="dropdown-item" href="http://amv.local/mobile/#mputype=mputype-uplink&amp;scroll=1"><?php _e( 'Uplink', 'amvdm' ); ?></a>
+                                <a class="dropdown-item" href="http://amv.local/mobile/#mputype=mputype-carry-pack&amp;scroll=1"><?php _e( 'Carry-Packs', 'amvdm' ); ?></a>
+                                <a class="dropdown-item" href="http://amv.local/mobile-specs"><?php _e( 'Spec Sheets', 'amvdm' ); ?></a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://amv.local/rental"><?php _e( 'Rentals', 'amvdm' ); ?></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://amv.local/stage"><?php _e( 'Stages', 'amvdm' ); ?></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://amv.local/post"><?php _e( 'Post', 'amvdm' ); ?></a> 
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://amvdm.com/" target="_blank"><?php _e( 'Digital Media', 'amvdm' ); ?></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://amv.local/sales"><?php _e( 'Sales', 'amvdm' ); ?></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="mobile-rentals" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php _e( 'Video Transport / IP', 'amvdm' ); ?> <span class="sr-only"><?php _e( '(current)', 'amvdm' ); ?></span> </a>
+                            <div class="dropdown-menu" aria-labelledby="video-transport-ip">
+                                <a class="dropdown-item" href="http://amv.local/gateway"><?php _e( 'AMV Gateway', 'amvdm' ); ?></a>
+                                <a class="dropdown-item" href="http://amv.local/satellite-services"><?php _e( 'Westar Satellite Services', 'amvdm' ); ?></a>
+                                <a class="dropdown-item" href="http://amv.local/master-control"><?php _e( 'Westar Master Control', 'amvdm' ); ?></a>
+                                <a class="dropdown-item" href="http://amv.local/ip-services"><?php _e( 'IP Services', 'amvdm' ); ?></a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="http://amv.local/about" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php _e( 'About', 'amvdm' ); ?></a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                <a class="dropdown-item" href="/about"><?php _e( 'Our Company', 'amvdm' ); ?></a>
+                                <!--    <a class="dropdown-item" href="#">Credits</a> -->
+                                <a class="dropdown-item" href="http://amv.local/news"><?php _e( 'News', 'amvdm' ); ?></a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://amv.local/contact"><?php _e( 'Contact', 'amvdm' ); ?></a>
+                        </li>
+                    </ul>
+                    <form role="search" method="get" class="customsearchbar1 form-inline my-2 my-lg-0 hidden-lg-up" action="http://amv.local">
+                        <input name="s" id="s" class="form-control" type="text" placeholder="Search">
+                        <button class="btn  my-2 my-sm-0" type="submit">
+                            <?php _e( 'Search', 'amvdm' ); ?>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
         <!--loader-->
         <div class="page-loader">
             <div class="loader"> 
@@ -12,55 +95,7 @@
         <!--loader-->         
         <!--Header-->
         <header id="header">
-            <div id="main-navigation" class="noborder">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <nav class="navbar navbar-default">
-                                <div class="navbar-header page-scroll"> 
-                                    <a href="#" class="navbar-brand logo"><img class="img-responsive" alt="logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/amv-logo.png"></a> 
-                                </div>
-                                <div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="fixed-collapse-navbar"> 
-                                    <a href="#" class="push_nav_brand"><img class="img-responsive" alt="logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/amv-logo.png"></a>
-                                    <ul class="push_nav">
-                                        <li class="hidden"> 
-                                            <a href="#page-top" class="page-scroll"></a> 
-                                        </li>
-                                        <li class="active"> 
-                                            <a class="page-scroll" href="#main-slider"><?php _e( 'Home', 'amvdm' ); ?></a> 
-                                        </li>
-                                        <li> 
-                                            <a href="#about" class="page-scroll"><?php _e( 'About', 'amvdm' ); ?></a> 
-                                        </li>
-                                        <li> 
-                                            <a href="#services" class="page-scroll"><?php _e( 'Services', 'amvdm' ); ?></a> 
-                                        </li>
-                                        <li> 
-                                            <a href="#our-team" class="page-scroll"><?php _e( 'Team', 'amvdm' ); ?></a> 
-                                        </li>
-                                        <li> 
-                                            <a class="page-scroll" href="#Portfolio"><?php _e( 'Work', 'amvdm' ); ?></a> 
-                                        </li>
-                                        <li> 
-                                            <a class="page-scroll" href="#contact"><?php _e( 'Contact Us', 'amvdm' ); ?></a> 
-                                        </li>
-                                    </ul>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <div class="container-fluid">
-            <div class="main-button right">
-                <button class="toggle-menu menu-right push-body jPushMenuBtn"> 
-                    <span></span> 
-                    <span></span> 
-                    <span></span> 
-                </button>
-            </div>
-        </div>
+</header>
         <!--Header-->         
         <!--Slider-->
         <section id="main-slider" class="dark-slider">
@@ -72,11 +107,11 @@
                             <!-- MAIN IMAGE -->                             
                             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/satellite_background.jpg" alt="slidebg1" data-bgposition="center top"> 
                             <!-- LAYER NR. 1 -->
-                            <p class="tp-caption sft tp-resizeme tp-caption tpfirst" data-x="center" data-y="130" data-speed="500" data-start="1000" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" style="z-index: 5;"><?php _e( 'Stream Anything. Stream Everywhere.', 'amvdm' ); ?></p>
+                            <p class="tp-caption sft tp-resizeme tp-caption tpfirst" data-x="center" data-y="130" data-speed="500" data-start="1000" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" style="z-index: 5;"><?php the_field('main_slogan') ?></p>
                             <!-- LAYER NR. 2 -->
-                            <h2 class="tp-caption fade tp-resizeme text-left" data-x="center" data-y="190" data-speed="500" data-start="1500" data-easing="Power3.easeInOut" data-elementdelay="0.05" data-endelementdelay="0.1" style="z-index: 9;"> <?php _e( 'WHEN IT COMES TO JIVE EVENTS,', 'amvdm' ); ?><br> <?php _e( 'WE\'VE GOT YOU COVERED.', 'amvdm' ); ?></h2>
+                            <h2 class="tp-caption fade tp-resizeme text-left" data-x="center" data-y="190" data-speed="500" data-start="1500" data-easing="Power3.easeInOut" data-elementdelay="0.05" data-endelementdelay="0.1" style="z-index: 9;"><?php the_field('main_title') ?></h2>
                             <!-- LAYER NR. 3 -->
-                            <p class="tp-caption sft tp-resizeme tplast" data-x="center" data-y="310" data-speed="500" data-start="2000" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" style="z-index: 5;"><?php _e( 'AMV Digital Media is the only glass-to-glass live video', 'amvdm' ); ?><br> <?php _e( 'provider with the experience to ensure that your live event', 'amvdm' ); ?><br> <?php _e( 'is a guaranteed success.', 'amvdm' ); ?></p>
+                            <p class="tp-caption sft tp-resizeme tplast" data-x="center" data-y="310" data-speed="500" data-start="2000" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" style="z-index: 5;"><?php the_field('main_subtitle') ?></p>
                             <!-- LAYER NR. 3 -->
                             <div class="tp-caption tp-button sft tp-resizeme" data-x="center" data-y="420" data-speed="500" data-start="2800" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-linktoslide="next" style="z-index: 12;"> 
                                 <a href="#responsive" class="hvr-outline-out btn"><?php _e( 'Call Us', 'amvdm' ); ?></a> 
@@ -106,7 +141,7 @@
                             <div class="col-md-12 col-xs-6">
                                 <div class="canvas-box  magin-bottom text-right" data-wow-delay="0.3s"> 
                                     <span class="text-center"><i class="icon icon-basic-laptop  color-style1"></i></span>
-                                    <h4 class="color-style1"><?php _e( 'FULL-TIME SERVICES', 'amvdm' ); ?></h4>
+                                    <h4 class="color-style1"><?php _e( 'FULL-TIME SERVICES!!!', 'amvdm' ); ?></h4>
                                     <p><?php _e( 'Whether it\'s an OTT offering, or a full-time web channel, we can provide dedicated support to ensure you\'re always live.', 'amvdm' ); ?></p>
                                 </div>
                             </div>
@@ -193,7 +228,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="btn-more"> 
-                                        <a href="downloads/AMVDM-AboutUs.pdf" class="more wow"><?php _e( 'PDF', 'amvdm' ); ?><i class="fa fa-angle-right"></i></a> 
+                                        <a target="_blank" download href="<?php echo esc_url( the_field('about_us_pdf') ); ?>" class="more wow"><?php _e( 'PDF', 'amvdm' ); ?><i class="fa fa-angle-right"></i></a> 
                                     </div>
                                 </div>
                             </div>
@@ -247,60 +282,34 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center wow fadeIn">
-                        <p class="title"><?php _e( 'Reliability at scale', 'amvdm' ); ?></p>
+                        <p class="title"><?php the_field('sc_subtitle') ?></p>
                         <div class="divider">
                             <div class="dv-top"></div>
                             <div class="dv-middle"></div>
                             <div class="dv-bottom"></div>
                         </div>
-                        <h2 class="head-title"><?php _e( 'StreamCloud™', 'amvdm' ); ?></h2>
+                        <h2 class="head-title"><?php the_field('sc_title') ?></h2>
                     </div>
+                    <?php
+                        while (have_rows('streamcloud')) : the_row()
+                        
+                    ?>
                     <div class="col-md-4 col-sm-4">
                         <div class="canvas-box  magin-bottom text-center"> 
-                            <span class="text-center"><i class="icon icon-basic-smartphone  color-style1"></i></span>
-                            <h4 class="color-style1"><?php _e( 'PROPRIETARY PLATFORM', 'amvdm' ); ?></h4>
-                            <p><?php _e( 'Our platform has helped power thousands of events in a simple and automated fashion.', 'amvdm' ); ?></p>
+                            <span class="text-center"><i class="icon color-style1 <?php the_sub_field('icon'); ?> <?php the_sub_field('color_style'); ?>"></i></span>
+                            <h4 class="color-style1"><?php the_sub_field('title') ?></h4>
+                            <p><?php the_sub_field('subtitle') ?></p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4">
-                        <div class="canvas-box  magin-bottom text-center"> 
-                            <span class="text-center"><i class="icon icon-ecommerce-dollar color-style2"></i></span>
-                            <h4 class="color-style2"><?php _e( 'AFFORDABILITY', 'amvdm' ); ?></h4>
-                            <p><?php _e( 'The more events you stream with us, the lower your per event price goes. It\'s that simple.', 'amvdm' ); ?> </p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
-                        <div class="canvas-box  magin-bottom text-center"> 
-                            <span class="text-center"><i class="icon icon-basic-globe  color-style1"></i></span>
-                            <h4 class="color-style1"><?php _e( 'ENDLESS POSSIBILITIES', 'amvdm' ); ?></h4>
-                            <p><?php _e( 'StreamCloud™ can pull from RTMP feeds, telephone couplers, satellite IRDs and more. If you have a feed, we can work with it.', 'amvdm' ); ?></p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
-                        <div class="canvas-box  magin-bottom text-center"> 
-                            <span class="text-center"><i class="icon icon-ecommerce-graph2 color-style2"></i></span>
-                            <h4 class="color-style2"><?php _e( 'ANALYTICS', 'amvdm' ); ?></h4>
-                            <p><?php _e( 'Get daily or monthly reports on your users, or utilize our player to get real-time analytics during your live events.', 'amvdm' ); ?></p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
-                        <div class="canvas-box  magin-bottom text-center"> 
-                            <span class="text-center"><i class="icon icon-basic-todo-txt  color-style1"></i></span>
-                            <h4 class="color-style1"><?php _e( 'EASY ONBOARDING', 'amvdm' ); ?></h4>
-                            <p><?php _e( 'If you have a CMS, we can ingest your event schedule automatically. If not, we make it easy for you to schedule events through our portal.', 'amvdm' ); ?></p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
-                        <div class="canvas-box  magin-bottom text-center"> 
-                            <span class="text-center"><i class="icon icon-basic-lock color-style2"></i></span>
-                            <h4 class="color-style2"><?php _e( '99.999% UPTIME', 'amvdm' ); ?></h4>
-                            <p><?php _e( 'We focus heavily on redundancy and it has proven worthwhile. Our goal is to always be prepared for the worst-case-scenario.', 'amvdm' ); ?></p>
-                        </div>
-                    </div>                     
+                    <?php
+                        endwhile;
+                        
+                        
+                    ?> 
                 </div>
                 <div class="row">
                     <div class="btn-more"> 
-                        <a href="downloads/StreamCloud.pdf" class="more wow"><?php _e( 'PDF', 'amvdm' ); ?><i class="fa fa-angle-right"></i></a> 
+                        <a target="_blank" download href="<?php the_field('streamcloud_pdf') ?>" class="more wow"><?php _e( 'PDF', 'amvdm' ); ?><i class="fa fa-angle-right"></i></a> 
                     </div>
                 </div>
             </div>
@@ -356,7 +365,7 @@
                                             </li>
                                             <li>
                                                 <a href="https://twitter.com/NAME" target="_blank" class="text-center"><i class="fa fa-twitter"></i><span></span></a>
-                                            </li>                                                                                                                                                                                 -->                 
+                                            </li>                                             
                                         </ul>
                                     </div>
                                 </div>
@@ -372,14 +381,14 @@
         <!--Our team-->         
         <!-- Work Portfolio -->
         <!-- Hidden images for the gallery sections -->
-        <a class="fancybox portfolio-btn" data-fancybox-group="adobe" title="Additional feed to Youtube Live with Closed-Captions" href="images/portfolio/max2.jpg"></a>
-        <a class="fancybox portfolio-btn" data-fancybox-group="grammys" href="images/portfolio/grammys2.jpg"></a>
-        <a class="fancybox portfolio-btn" data-fancybox-group="grammys" href="images/portfolio/grammys3.jpg"></a>
-        <a class="fancybox portfolio-btn" data-fancybox-group="iicd" href="images/portfolio/iicd2.jpg"></a>
-        <a class="fancybox portfolio-btn" data-fancybox-group="glasshouse" href="images/portfolio/glasshouse2.jpg"></a>
-        <a class="fancybox portfolio-btn" data-fancybox-group="oscars" href="images/portfolio/oscars2.jpg"></a>
-        <a class="fancybox portfolio-btn" data-fancybox-group="oscars" href="images/portfolio/oscars3.jpg"></a>
-        <a class="fancybox portfolio-btn" data-fancybox-group="oscars" href="images/portfolio/oscars4.jpg"></a>
+        <a class="fancybox portfolio-btn" adobe" title="Additional feed to Youtube Live with Closed-Captions" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/max2.jpg data-fancybox-group="></a>
+        <a class="fancybox portfolio-btn" grammys" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/grammys2.jpg data-fancybox-group="></a>
+        <a class="fancybox portfolio-btn" grammys" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/grammys3.jpg data-fancybox-group="></a>
+        <a class="fancybox portfolio-btn" iicd" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/iicd2.jpg data-fancybox-group="></a>
+        <a class="fancybox portfolio-btn" lasshouse" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/glasshouse2.jpg data-fancybox-group="></a>
+        <a class="fancybox portfolio-btn" oscars" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/oscars2.jpg data-fancybox-group="></a>
+        <a class="fancybox portfolio-btn" oscars" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/oscars3.jpg data-fancybox-group="></a>
+        <a class="fancybox portfolio-btn" oscars" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/oscars4.jpg data-fancybox-group="></a>
         <section id="Portfolio" class="padding" data-wow-duration="500ms" data-wow-delay="900ms">
             <div class="container">
                 <div class="row">
@@ -426,11 +435,11 @@
                                                     <h4 class="base"><?php _e( 'The Oscars', 'amvdm' ); ?></h4>
                                                     <div class="line"></div>
                                                     <p><?php _e( 'Transmission from venue, encoding & CDN delivery', 'amvdm' ); ?></p>
-                                                    <a class="fancybox portfolio-btn" data-fancybox-group="oscars" href="images/portfolio/oscars1.jpg" title=""><i class="icon icon-basic-picture-multiple"></i></a>
+                                                    <a class="fancybox portfolio-btn" data-fancybox-group="oscars" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/oscars1.jpg" title=""><i class="icon icon-basic-picture-multiple"></i></a>
                                                     <!--<a href="project_details.html" class="portfolio-btn"><i class="icon icon-basic-link"></i></a> -->
                                                 </div>
                                             </div>
-                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio/oscars.jpg" alt="The Oscars"/> 
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio/oscars.jpg" alt="The Oscars"/>
                                         </div>
                                     </div>
                                 </div>
@@ -443,7 +452,7 @@
                                                     <div class="line"></div>
                                                     <p><?php _e( 'Transmission from venue, encoding & CDN delivery', 'amvdm' ); ?></p>
                                                     <!--  <a href="project_details.html" class="portfolio-btn"><i class="icon icon-basic-link"></i></a>-->
-                                                    <a class="fancybox portfolio-btn" data-fancybox-group="adobe" href="images/portfolio/max1.jpg" title="Main Adobe Max HD feed. 2 day show. Custom Primetime player we built."><i class="icon icon-basic-picture-multiple"></i></a>
+                                                    <a class="fancybox portfolio-btn" data-fancybox-group="adobe" title="Main Adobe Max HD feed. 2 day show. Custom Primetime player we built." href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/max1.jpg"><i class="icon icon-basic-picture-multiple"></i></a>
                                                 </div>
                                             </div>
                                             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio/adobe.jpg" alt="Adobe"/> 
@@ -458,7 +467,7 @@
                                                     <h4 class="base"><?php _e( 'Glass House', 'amvdm' ); ?></h4>
                                                     <div class="line"></div>
                                                     <p><?php _e( 'Custom Development & Consultation', 'amvdm' ); ?></p>
-                                                    <a class="fancybox portfolio-btn" data-fancybox-group="glasshouse" href="images/portfolio/glasshouse1.jpg" title=""><i class="icon icon-basic-picture-multiple"></i></a>
+                                                    <a class="fancybox portfolio-btn" data-fancybox-group="glasshouse" title="" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/glasshouse1.jpg"><i class="icon icon-basic-picture-multiple"></i></a>
                                                     <!--    <a href="project_details.html" class="portfolio-btn"><i class="icon icon-basic-link"></i></a>-->
                                                 </div>
                                             </div>
@@ -474,7 +483,7 @@
                                                     <h4 class="base"><?php _e( 'The GRAMMYs', 'amvdm' ); ?></h4>
                                                     <div class="line"></div>
                                                     <p><?php _e( 'Production, Transmission, encoding & CDN delivery', 'amvdm' ); ?></p>
-                                                    <a class="fancybox portfolio-btn" data-fancybox-group="grammys" href="images/portfolio/grammys1.jpg" title=""><i class="icon icon-basic-picture-multiple"></i></a>
+                                                    <a class="fancybox portfolio-btn" data-fancybox-group="grammys" title="" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/grammys1.jpg"><i class="icon icon-basic-picture-multiple"></i></a>
                                                     <!--   <a href="project_details.html" class="portfolio-btn"><i class="icon icon-basic-link"></i></a>-->
                                                 </div>
                                             </div>
@@ -490,7 +499,7 @@
                                                     <h4 class="base"><?php _e( 'If I Can Dream', 'amvdm' ); ?></h4>
                                                     <div class="line"></div>
                                                     <p><?php _e( 'Custom Development & Consultation', 'amvdm' ); ?></p>
-                                                    <a class="fancybox portfolio-btn" data-fancybox-group="iicd" href="images/portfolio/iicd1.jpg" title="Custom website. 67 live 24/7 feeds"><i class="icon icon-basic-picture-multiple"></i></a>
+                                                    <a class="fancybox portfolio-btn" data-fancybox-group="iicd" title="Custom website. 67 live 24/7 feeds" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/iicd1.jpg"><i class="icon icon-basic-picture-multiple"></i></a>
                                                     <!--    <a href="project_details.html" class="portfolio-btn"><i class="icon icon-basic-link"></i></a>-->
                                                 </div>
                                             </div>
@@ -506,7 +515,7 @@
                                                     <h4 class="base"><?php _e( 'Big Brother OTT', 'amvdm' ); ?></h4>
                                                     <div class="line"></div>
                                                     <p><?php _e( 'Full-time service', 'amvdm' ); ?></p>
-                                                    <a class="fancybox portfolio-btn" data-fancybox-group="bigbrother" href="images/portfolio/bigbrotherOTT.jpg" title=""><i class="icon icon-basic-picture"></i></a>
+                                                    <a class="fancybox portfolio-btn" data-fancybox-group="bigbrother" title="" href="<?php echo esc_url( get_bloginfo( 'template_directory' ) ); ?>/images/portfolio/bigbrotherOTT.jpg"><i class="icon icon-basic-picture"></i></a>
                                                     <!--   <a href="project_details.html" class="portfolio-btn"><i class="icon icon-basic-link"></i></a>-->
                                                 </div>
                                             </div>
@@ -617,65 +626,13 @@
                         <h2 class="head-title"><?php _e( 'Contact Us', 'amvdm' ); ?></h2>
                     </div>
                     <div class="col-md-6 col-sm-12">
-                        <div class="contact-info">
-                            <div class="title-type-2">
-                                <h4 class="title"><b><?php _e( 'AMV Digital Media LLC', 'amvdm' ); ?></b></h4>
-                            </div>
-                            <div class="address">
-                                <ul>
-                                    <li>
-                                        <strong><?php _e( 'Office:', 'amvdm' ); ?></strong> 
-                                        <?php _e( '12950 Culver Blvd. Ste. 200', 'amvdm' ); ?>
-                                    </li>
-                                    <li>
-                                        <strong><?php _e( 'Location:', 'amvdm' ); ?></strong> 
-                                        <?php _e( 'Los Angeles, CA 90066', 'amvdm' ); ?>
-                                    </li>
-                                    <li>
-                                        <strong><?php _e( 'Phone:', 'amvdm' ); ?></strong> 
-                                        <?php _e( '+1.310.751.1911', 'amvdm' ); ?>
-                                    </li>
-                                    <li>
-                                        <strong><?php _e( 'E-mail:', 'amvdm' ); ?></strong> 
-                                        <?php _e( 'info@amvdm.com', 'amvdm' ); ?>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="share">
-                                <a target="_blank" href="https://twitter.com/AMV_DM" target="_blank"><i class="fa fa-twitter"></i></a> 
-                                <a href="https://www.linkedin.com/company/1042984" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                        </div>
+                        <?php the_field('contact_info') ?>
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="contact-backgroung">
-                            <form class="contact-form" id="form_contact">
-                                <div class="form-group">
-                                    <div class="box">
-                                        <input id="name" class="form-control" type="text" name="name" placeholder="Your name *" required/>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="box">
-                                        <input id="email" class="form-control" type="text" name="email" placeholder="Your email *" required/>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="box">
-                                        <input id="mysubject" class="form-control" type="text" name="mysubject" placeholder="Subject *" required/>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="box">
-                                        <textarea id="mymessage" class="form-control" name="mymessage" required placeholder="Message *"></textarea>
-                                    </div>
-                                </div>
-                                <button type="submit" id="submit_message" class="btn btn-red hvr-sweep-to-right" data-wow-delay="0.8s" data-loading-text="Loading...">
-                                    <?php _e( 'Email AMVDM', 'amvdm' ); ?>
-                                </button>
-                                <span class="loading"><i class="fa-pulse"></i></span>
-                                <div id="reply_message"></div>
-                            </form>
+                            <div class="contact-form" id="form_contact">
+                                <?php echo do_shortcode('[contact-form-7 id="1221" title="AMVDM Contact Form"]') ?>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -691,38 +648,14 @@
                             <a target="_blank" href="https://twitter.com/AMV_DM"><i class="fa fa-twitter"></i></a> 
                             <a href="https://www.linkedin.com/company/1042984" target="_blank"><i class="fa fa-linkedin"></i></a>
                         </div>
-                        <p class="pull-left copyright"><?php _e( 'COPYRIGHT (©) 2016 AMV Digital Media LLC', 'amvdm' ); ?> </p>
+                        <p class="pull-left copyright"><?php _e( 'COPYRIGHT (©) 2019', 'amvdm' ); ?> </p>
+                        <p class="pull-left copyright"> <?php _e( 'AMV Digital Media LLC', 'amvdm' ); ?></p>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Footer -->         
         <a href="#." class="go-top text-center show"><i class="fa fa-long-arrow-up"></i></a>
-        <div id="moduleControl">
-            <ul>
-                <li class="hidden">
-                    <a href="#page-top" class="page-scroll"></a>
-                </li>
-                <li class="active">
-                    <a class="page-scroll" href="#main-slider"></a>
-                </li>
-                <li>
-                    <a href="#about" class="page-scroll"></a>
-                </li>
-                <li>
-                    <a href="#services" class="page-scroll"></a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#our-team"></a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#Portfolio"></a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact"></a>
-                </li>
-            </ul>
-        </div>
         <!-- Js lib -->                                                                                                                                                                  
         <!-- Js lib -->
         <!-- Default Statcounter code for AMVDM http://amvdm.com -->

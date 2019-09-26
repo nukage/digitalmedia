@@ -310,67 +310,7 @@ jQuery(document).on('ready',function(){
 		});
 	}
 });
-		 
-//Contact Us
-  $("#submit_message").on("click", function() {
-		$('#reply_message').removeClass();
-		$('#reply_message').html('')
-		var regEx = "";
-		
-		// validate Name
-		var name = $("input#name").val();
-		regEx=/^[A-Za-z .'-]+$/;
-		if (name == "" || name == "Name"  || !regEx.test(name)) {
-			$("input#name").val('');
-			$("input#name").focus();
-			return false;
-		}
-		
-		// validate Email
-		var email = $("input#email").val();
-		regEx=/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/;
-		if (email == "" || email == "Email" || !regEx.test(email)) {
-			$("input#email").val('');
-			$("input#email").focus();
-			return false;
-		}
-		
-		// validate Subject
-		var mysubject = $("input#mysubject").val();
-		regEx=/^[A-Za-z0-9 .'-]+$/;
-		if (mysubject == "" || mysubject == "Mysubject"  || !regEx.test(mysubject)) {
-			$("input#mysubject").val('');
-			$("input#mysubject").focus();
-			return false;
-		}
-		
-		// validate Message
-		var mymessage = $("textarea#mymessage").val();
-		if (mymessage == "" || mymessage == "Mymessage" || mymessage.length < 2) {
-			$("textarea#mymessage").val('');
-			$("textarea#mymessage").focus();
-			return false;
-		}
-		
-		var dataString = 'name='+ $("input#name").val() + '&email=' + $("input#email").val() + '&mysubject='+ $("input#mysubject").val() + '&mymessage=' + $("textarea#mymessage").val();
-		
-		$('.loading').fadeIn(500);
-		
-		// Send form data to mailer.php
-		$.ajax({
-			type: "POST",
-			url: "php/sender.php",
-			data: dataString,
-			success: function() {
-				$('.loading').hide();
-				$('#reply_message').addClass('list3');
-				$('#reply_message').html("<span class='text-success'>Mail sent successfully</span>")
-				.fadeIn(1500);
-				$('#form_contact')[0].reset();
-				}
-			});
-		return false;
-	});
+		  
 //Initiat WOW JS
 new WOW().init();
  

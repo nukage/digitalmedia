@@ -361,7 +361,7 @@
                                             </li>
                                             <li>
                                                 <a href="https://twitter.com/NAME" target="_blank" class="text-center"><i class="fa fa-twitter"></i><span></span></a>
-                                            </li>                                                                                                                                                                                                                                                                                                                                                                                                             -->                 
+                                            </li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     -->                 
                                         </ul>
                                     </div>
                                 </div>

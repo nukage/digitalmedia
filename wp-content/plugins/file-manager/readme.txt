@@ -24,11 +24,12 @@ Just install the plugin following standard wordpress plugin install process. All
 
 
 = What's New? =
++ Uploaded file to appropriate directory will automatically synchronized to media library. (since 5.1.7)
 + File Manager security issue fixed. (since 5.1.6)
-+ elFinder updated to 2.1.49 (security update) (since 5.1.5)
 
 = Key Features =
 
++ Automatic media sync
 + Upload, Download and Delete operations
 + All operations with files and folders (copy, move, upload, create folder/file, rename, archive, extract, edit, etc.)
 + Download, upload, cut, copy, duplicate, paste, delete, create directory, create file, edit file, rename, archive, extract
@@ -137,11 +138,14 @@ Yes, I will support the plugin.
 
 == Upgrade Notice ==
 
-= 5.1.6 = 
+= 5.1.7 = 
 + No special requirements.
 
 
 == Changelog ==
+
+= 5.1.7 (17 July, 2019) =
+* Uploaded file to appropriate directory will automatically synchronized to media library. (since 5.1.7)
 
 = 5.1.6 (07 July, 2019) =
 * File Manager security issue fixed

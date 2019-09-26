@@ -4,10 +4,10 @@
  * Plugin Name: File Manager
  * Author: Aftabul Islam
  * Author URI: http://www.giribaz.com
- * Version: 5.1.6
+ * Version: 5.1.7
  * Author Email: toaihimel@gmail.com
  * PHP version: 5.6
- * Text domail: file-manager
+ * Text domain: file-manager
  * License: GPLv2
  * Description: File Manage let you manage your file the way you like. You can upload, delete, copy, move, rename, compress, extract files. You don't need to worry about ftp. It is realy simple and easy to use.
  *
@@ -115,11 +115,11 @@ class FM extends FM_BootStart {
 
 		// Allowed mime types
 		$mime = new FMMIME( plugin_dir_path(__FILE__) . 'elFinder/php/mime.types' );
-
 		$opts = array(
 			'bind' => array(
 				'put.pre' => array(new FMPHPSyntaxChecker, 'checkSyntax'), // Syntax Checking.
 				'archive.pre back.pre chmod.pre colwidth.pre copy.pre cut.pre duplicate.pre editor.pre put.pre extract.pre forward.pre fullscreen.pre getfile.pre help.pre home.pre info.pre mkdir.pre mkfile.pre netmount.pre netunmount.pre open.pre opendir.pre paste.pre places.pre quicklook.pre reload.pre rename.pre resize.pre restore.pre rm.pre search.pre sort.pre up.pre upload.pre view.pre zipdl.pre' => array(&$this, 'security_check'),
+				'upload' => array(new FMMediaSync, 'onFileUpload'),
 				'*' => 'fm_logger',
 			),
 			'debug' => true,

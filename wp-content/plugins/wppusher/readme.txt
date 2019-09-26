@@ -1,8 +1,8 @@
 === WP Pusher ===
 Tags: git, deploy, deployment, github, workflow
 Requires at least: 3.9
-Tested up to: 5.1
-Stable tag: 2.4.10
+Tested up to: 5.2
+Stable tag: 2.4.11
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -63,6 +63,10 @@ The way WP Pusher works, packages (themes and plugins) need to be in their own r
 3. Manage themes and plugins from the dashboard
 
 == Changelog ==
+
+= 2.4.11 =
+
+* [Bugfix] Support special characters in GitHub branch names
 
 = 2.4.10 =
 

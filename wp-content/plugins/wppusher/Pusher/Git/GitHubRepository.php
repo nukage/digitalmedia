@@ -10,7 +10,7 @@ class GitHubRepository extends Repository
 
     public function getZipUrl()
     {
-        $url = 'https://api.github.com/repos/' . $this->handle . '/zipball/' . $this->getBranch() . '?dir=/wppusher';
+        $url = 'https://api.github.com/repos/' . $this->handle . '/zipball/' . urlencode($this->getBranch()) . '?dir=/wppusher';
 
         if ($this->isPrivate()) {
             $token = get_option('gh_token');

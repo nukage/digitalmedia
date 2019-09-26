@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ravan
 Tags: fancybox, lightbox, gallery, image, photo, video, flash, overlay, youtube, vimeo, dailymotion, pdf, svg, iframe, swf, jquery, webp
 Requires at least: 3.3
 Tested up to: 5.2
-Stable tag: 1.8.17
+Stable tag: 1.8.18
 
 Easily enable the FancyBox jQuery extension on just about all media links. Multi-Site compatible. Supports iFrame and Flash movies.
 
@@ -81,7 +81,7 @@ If you wish to help build this plugin, you're very welcome to [translate Easy Fa
 
 = General =
 
-- **Outbound links or Downloads tracking** in some of the stats plugins can interfere with FancyBox. Disable such option or exclude links manually with a class (see instructions for SlimStat below)
+- **Outbound click or Download tracking** in some of the stats plugins can interfere with FancyBox. Disable such options or exclude links manually with a class if possible (see instructions for SlimStat below)
 - Most plugins and themes that already include a light box script. Continue reading to see if you are using one of the know ones or follow the troubleshooting steps to find out what is conflicting on your site.
 - Any theme that is missing the obligatory `<?php wp_footer(); ?>` call in the footer.php template.
 - When showing an iframe as inline content in FancyBox -- not advised, use fancybox-iframe instead! -- the iframe will become blank after opening and closing it. The solution is to link directly to the iframe source and use `class="fancybox-iframe"` instead.
@@ -493,11 +493,17 @@ If you still do not get to see your images in FancyBox, ask on the [Easy FancyBo
 
 == Upgrade Notice ==
 
-= 1.8.17 =
-Fix compat messages and links
+= 1.8.18 =
+Fix Jetpack Tiled Gallery compat + security issue reported by Jakob Hagl sba-research.org
 
 
 == Changelog ==
+
+= 1.8.18 =
+* FIX: Jetpack Tiled Gallery block compatibility
+* Don't include mousewheel script by default
+* SECURITY FIX: failing color value sanitization, issue reported by Jakob Hagl sba-research.org, CVE-2019-16524
+* NEW: inline styles output filter
 
 = 1.8.17 =
 * Pro compatibility messages

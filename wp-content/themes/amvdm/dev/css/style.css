@@ -67,10 +67,19 @@ Table Of Content
 
 
 */
+
+/*--------------------------------------------------------------
+# FONTS
+--------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
+
+
+
 /****** General Styling ******/
 body {
     color: #929292;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
 
     /*background-color:#f4f4f4;*/
@@ -3847,10 +3856,99 @@ blockquote {
     }
 }
 
-.new-nav {
-    margin-top: -;
-    background: rgba(0,0,0,0);
+ 
+.navbar1 {
+    font-size: 14px;
+    font-weight: 200;
+    background-color: #000 !important;
+    min-height: 50px;
 }
 
-.nav-amvdm {
+@media (min-width: 990px)
+.navbar2 {
+    background-color: rgba(255, 255, 255, 0);
+}
+.navbar2 {
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+    width: 100%;
+    transition: .3s all;
+    background-color: #222222;
+}
+
+.navbar {
+    width:100%;
+}
+
+.navbar-brand {
+    background-image: url(http://www.allmobilevideo.com/wp-content/themes/allmobilevideo-theme/img/amv-logo-1-hq.png);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 45px;
+    text-indent: -99em;
+    background-size: contain;
+}
+
+.navbar-default .navbar-nav > li{
+        margin: 10px 0 0 33px;
+        text-align: center;
+   
+}
+ .nav-link, .navbar-default .navbar-nav > li > a {
+    font-weight: 300;
+    font-size: 14px !important;
+    font-size: .87em;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+    letter-spacing: 0;
+
+  
+}
+
+
+@media (max-width: 1200px) {
+   .navbar-default .navbar-nav > li{
+    margin-left:10px;
+    max-width:90px;
+  }
+ .nav-link, .navbar-default .navbar-nav > li > a{
+     font-size:11px !important;
+    }
+ .nav-contain {
+    width:100%;
+ }   
+ .navbar-brand {
+    max-width:180px;
+ }
+
+
+    .navbar-brand {
+  /*      position: absolute;
+        top:50px;*/
+    }
+
+} 
+@media (max-width: 768px) {
+    .navbar-default .navbar-nav{
+        background:black;
+    }
+    .navbar-default .navbar-nav > li{
+        display:block;
+        width:98%;
+        max-width: 90vw;
+        text-align: center;
+        
+    }
+
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: white;
+    background-color: rgba(0,0,0,0);
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color:white;
 }

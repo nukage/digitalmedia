@@ -1,87 +1,79 @@
 <?php get_header(); ?>
 
-        <nav class="navbar navbar1 navbar-toggleable-xl navbar-inverse bg-inverse">
-            <div class="container">
-                <div class="navbar-collapse collapse" id="navbar1" aria-expanded="true" style="">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="">
-                            <a class="phone" href="tel:2127271234"><?php _e( '(212) 727-1234', 'amvdm' ); ?></a>
-                        </li>
-                        <li class="nav-item hidden-sm-down">
-                            <a class="email" href="mailto:contact@amvchelsea.com" target="_blank"><?php _e( 'CONTACT@AMVCHELSEA.COM', 'amvdm' ); ?></a>
-                        </li>
-                    </ul>
-                    <form role="search" method="get" action="http://amv.local" class="customsearchbar1 form-inline my-2 my-lg-0 hidden-md-down">
-                        <input name="s" id="s" class="form-control" type="text" placeholder="Search">
-                        <button class="btn  my-2 my-sm-0" type="submit">
-                            <?php _e( 'Search', 'amvdm' ); ?>
-                        </button>
-                    </form>
+        <nav class="navbar navbar-default">
+            <div class="container nav-contain">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only"><?php _e( 'Toggle navigation', 'amvdm' ); ?></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="http://www.allmobilevideo.com"><?php _e( 'All Mobile Video', 'amvdm' ); ?></a>
                 </div>
-            </div>
-        </nav>
-        <nav class="navbar navbar2 navbar-toggleable-md navbar-inverse justify-content-between">
-            <div class="container">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2" aria-controls="navbarsExampleDefault" aria-expanded="true" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="http://amv.local"><?php _e( 'All Mobile Video', 'amvdm' ); ?></a>
-                <div class="navbar-collapse collapse " id="navbar2" aria-expanded="true" style="">
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav  navbar-nav  nav-pills nav-fill  w-100 align-items-sta">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="mobile-rentals" href="http://amv.local/mobile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php _e( 'Mobile', 'amvdm' ); ?><span class="sr-only"><?php _e( '(current)', 'amvdm' ); ?></span> </a>
-                            <div class="dropdown-menu" aria-labelledby="mobile">
-                                <a class="dropdown-item" href="http://amv.local/mobile"><?php _e( 'Full Fleet', 'amvdm' ); ?></a>
-                                <a class="dropdown-item" href="http://amv.local/mobile/#mputype=mputype-production&amp;scroll=1"><?php _e( 'Production', 'amvdm' ); ?></a>
-                                <a class="dropdown-item" href="http://amv.local/mobile/#mputype=mputype-uplink&amp;scroll=1"><?php _e( 'Uplink', 'amvdm' ); ?></a>
-                                <a class="dropdown-item" href="http://amv.local/mobile/#mputype=mputype-carry-pack&amp;scroll=1"><?php _e( 'Carry-Packs', 'amvdm' ); ?></a>
-                                <a class="dropdown-item" href="http://amv.local/mobile-specs"><?php _e( 'Spec Sheets', 'amvdm' ); ?></a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="http://amv.local/rental"><?php _e( 'Rentals', 'amvdm' ); ?></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="http://amv.local/stage"><?php _e( 'Stages', 'amvdm' ); ?></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="http://amv.local/post"><?php _e( 'Post', 'amvdm' ); ?></a> 
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="http://amvdm.com/" target="_blank"><?php _e( 'Digital Media', 'amvdm' ); ?></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="http://amv.local/sales"><?php _e( 'Sales', 'amvdm' ); ?></a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="mobile-rentals" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php _e( 'Video Transport / IP', 'amvdm' ); ?> <span class="sr-only"><?php _e( '(current)', 'amvdm' ); ?></span> </a>
-                            <div class="dropdown-menu" aria-labelledby="video-transport-ip">
-                                <a class="dropdown-item" href="http://amv.local/gateway"><?php _e( 'AMV Gateway', 'amvdm' ); ?></a>
-                                <a class="dropdown-item" href="http://amv.local/satellite-services"><?php _e( 'Westar Satellite Services', 'amvdm' ); ?></a>
-                                <a class="dropdown-item" href="http://amv.local/master-control"><?php _e( 'Westar Master Control', 'amvdm' ); ?></a>
-                                <a class="dropdown-item" href="http://amv.local/ip-services"><?php _e( 'IP Services', 'amvdm' ); ?></a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="http://amv.local/about" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php _e( 'About', 'amvdm' ); ?></a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown01">
-                                <a class="dropdown-item" href="/about"><?php _e( 'Our Company', 'amvdm' ); ?></a>
-                                <!--    <a class="dropdown-item" href="#">Credits</a> -->
-                                <a class="dropdown-item" href="http://amv.local/news"><?php _e( 'News', 'amvdm' ); ?></a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="http://amv.local/contact"><?php _e( 'Contact', 'amvdm' ); ?></a>
-                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php _e( 'Mobile', 'amvdm' ); ?> <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="http://www.allmobilevideo.com/mobile"><?php _e( 'Full Fleet', 'amvdm' ); ?></a>
+                                </li>
+                                <li> 
+                                    <a class="dropdown-item" href="http://www.allmobilevideo.com/mobile/#mputype=mputype-production&amp;scroll=1"><?php _e( 'Production', 'amvdm' ); ?></a>
+                                </li>
+                                <li> 
+                                    <a class="dropdown-item" href="http://www.allmobilevideo.com/mobile/#mputype=mputype-uplink&amp;scroll=1"><?php _e( 'Uplink', 'amvdm' ); ?></a>
+                                </li>
+                                <li> 
+                                    <a class="dropdown-item" href="http://www.allmobilevideo.com/mobile/#mputype=mputype-carry-pack&amp;scroll=1"><?php _e( 'Carry-Packs', 'amvdm' ); ?></a>
+                                </li>
+                                <li> 
+                                    <a class="dropdown-item" href="http://www.allmobilevideo.com/mobile-specs"><?php _e( 'Spec Sheets', 'amvdm' ); ?></a>
+                                </li>
+                            </ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://www.allmobilevideo.com/rental"><?php _e( 'Rentals', 'amvdm' ); ?></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://www.allmobilevideo.com/stage"><?php _e( 'Stages', 'amvdm' ); ?></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://www.allmobilevideo.com/post"><?php _e( 'Post', 'amvdm' ); ?></a> 
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://amvdm.com/" target="_blank"><?php _e( 'Digital Media', 'amvdm' ); ?></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://www.allmobilevideo.com/sales"><?php _e( 'Sales', 'amvdm' ); ?></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="mobile-rentals" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php _e( 'Video Transport / IP', 'amvdm' ); ?> <span class="sr-only"><?php _e( '(current)', 'amvdm' ); ?></span> </a>
+                                <div class="dropdown-menu" aria-labelledby="video-transport-ip">
+                                    <a class="dropdown-item" href="http://www.allmobilevideo.com/gateway"><?php _e( 'AMV Gateway', 'amvdm' ); ?></a>
+                                    <a class="dropdown-item" href="http://www.allmobilevideo.com/satellite-services"><?php _e( 'Westar Satellite Services', 'amvdm' ); ?></a>
+                                    <a class="dropdown-item" href="http://www.allmobilevideo.com/master-control"><?php _e( 'Westar Master Control', 'amvdm' ); ?></a>
+                                    <a class="dropdown-item" href="http://www.allmobilevideo.com/ip-services"><?php _e( 'IP Services', 'amvdm' ); ?></a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="http://www.allmobilevideo.com/about" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php _e( 'About', 'amvdm' ); ?></a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                    <a class="dropdown-item" href="/about"><?php _e( 'Our Company', 'amvdm' ); ?></a>
+                                    <!--    <a class="dropdown-item" href="#">Credits</a> -->
+                                    <a class="dropdown-item" href="http://www.allmobilevideo.com/news"><?php _e( 'News', 'amvdm' ); ?></a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://www.allmobilevideo.com/contact"><?php _e( 'Contact', 'amvdm' ); ?></a>
+                            </li>
                     </ul>
-                    <form role="search" method="get" class="customsearchbar1 form-inline my-2 my-lg-0 hidden-lg-up" action="http://amv.local">
-                        <input name="s" id="s" class="form-control" type="text" placeholder="Search">
-                        <button class="btn  my-2 my-sm-0" type="submit">
-                            <?php _e( 'Search', 'amvdm' ); ?>
-                        </button>
-                    </form>
                 </div>
+                <!-- /.navbar-collapse -->
             </div>
+            <!-- /.container-fluid -->
         </nav>
         <!--loader-->
         <div class="page-loader">

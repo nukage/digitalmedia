@@ -1,4 +1,5 @@
 'use strict';
+
 //Window Loaded Handler
   $(window).load(function(){
  		$(".page-loader").fadeOut("slow"); 
@@ -310,7 +311,7 @@ jQuery(document).on('ready',function(){
 		});
 	}
 });
-		  
+		
 //Initiat WOW JS
 new WOW().init();
  

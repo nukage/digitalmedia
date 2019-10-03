@@ -3902,9 +3902,7 @@ blockquote {
     color: white;
     text-transform: uppercase;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
-    letter-spacing: 0;
-
-  
+    letter-spacing: 0;  
 }
 
 
@@ -3913,22 +3911,21 @@ blockquote {
     margin-left:10px;
     max-width:90px;
   }
- .nav-link, .navbar-default .navbar-nav > li > a{
+.nav-link, .navbar-default .navbar-nav > li > a{
      font-size:11px !important;
     }
- .nav-contain {
+
+.nav-contain {
     width:100%;
- }   
+ }
+
  .navbar-brand {
     max-width:180px;
  }
-
-
     .navbar-brand {
   /*      position: absolute;
         top:50px;*/
     }
-
 } 
 @media (max-width: 768px) {
     .navbar-default .navbar-nav{
@@ -3939,9 +3936,7 @@ blockquote {
         width:98%;
         max-width: 90vw;
         text-align: center;
-        
     }
-
 }
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {

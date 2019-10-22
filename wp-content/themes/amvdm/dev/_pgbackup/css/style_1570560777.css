@@ -3952,21 +3952,3 @@ blockquote {
 .navbar-default .navbar-nav>li>a:hover {
     color: white;
 }
-
-img-team {
-}
-
-img-team {
-    height: 40px;
-    display: block;
-    object-fit: contain;
-}
-
-.img-team {
-    height: 300px;
-    width: 100%;
-}
-
-.img-team {
-    object-fit: cover;
-}

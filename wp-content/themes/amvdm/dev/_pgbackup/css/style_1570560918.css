@@ -3961,12 +3961,3 @@ img-team {
     display: block;
     object-fit: contain;
 }
-
-.img-team {
-    height: 300px;
-    width: 100%;
-}
-
-.img-team {
-    object-fit: cover;
-}

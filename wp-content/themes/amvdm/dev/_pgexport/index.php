@@ -34,41 +34,53 @@
                                     <a class="dropdown-item" href="http://www.allmobilevideo.com/mobile-specs"><?php _e( 'Spec Sheets', 'amvdm' ); ?></a>
                                 </li>
                             </ul>
-                            <li class="nav-item">
-                                <a class="nav-link" href="http://www.allmobilevideo.com/rental"><?php _e( 'Rentals', 'amvdm' ); ?></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="http://www.allmobilevideo.com/stage"><?php _e( 'Stages', 'amvdm' ); ?></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="http://www.allmobilevideo.com/post"><?php _e( 'Post', 'amvdm' ); ?></a> 
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="http://amvdm.com/" target="_blank"><?php _e( 'Digital Media', 'amvdm' ); ?></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="http://www.allmobilevideo.com/sales"><?php _e( 'Sales', 'amvdm' ); ?></a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="mobile-rentals" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php _e( 'Video Transport / IP', 'amvdm' ); ?> <span class="sr-only"><?php _e( '(current)', 'amvdm' ); ?></span> </a>
-                                <div class="dropdown-menu" aria-labelledby="video-transport-ip">
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://www.allmobilevideo.com/rental"><?php _e( 'Rentals', 'amvdm' ); ?></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://www.allmobilevideo.com/stage"><?php _e( 'Stages', 'amvdm' ); ?></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://www.allmobilevideo.com/post"><?php _e( 'Post', 'amvdm' ); ?></a> 
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://amvdm.com/" target="_blank"><?php _e( 'Digital Media', 'amvdm' ); ?></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://www.allmobilevideo.com/sales"><?php _e( 'Sales', 'amvdm' ); ?></a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php _e( 'VIDEO TRANSPORT / IP', 'amvdm' ); ?> <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
                                     <a class="dropdown-item" href="http://www.allmobilevideo.com/gateway"><?php _e( 'AMV Gateway', 'amvdm' ); ?></a>
+                                </li>
+                                <li> 
                                     <a class="dropdown-item" href="http://www.allmobilevideo.com/satellite-services"><?php _e( 'Westar Satellite Services', 'amvdm' ); ?></a>
+                                </li>
+                                <li> 
                                     <a class="dropdown-item" href="http://www.allmobilevideo.com/master-control"><?php _e( 'Westar Master Control', 'amvdm' ); ?></a>
+                                </li>
+                                <li> 
                                     <a class="dropdown-item" href="http://www.allmobilevideo.com/ip-services"><?php _e( 'IP Services', 'amvdm' ); ?></a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="http://www.allmobilevideo.com/about" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php _e( 'About', 'amvdm' ); ?></a>
-                                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                </li>
+                            </ul>                             
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php _e( 'ABOUT', 'amvdm' ); ?> <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
                                     <a class="dropdown-item" href="/about"><?php _e( 'Our Company', 'amvdm' ); ?></a>
-                                    <!--    <a class="dropdown-item" href="#">Credits</a> -->
+                                </li>
+                                <li> 
                                     <a class="dropdown-item" href="http://www.allmobilevideo.com/news"><?php _e( 'News', 'amvdm' ); ?></a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="http://www.allmobilevideo.com/contact"><?php _e( 'Contact', 'amvdm' ); ?></a>
-                            </li>
+                                </li>
+                            </ul>                             
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://www.allmobilevideo.com/contact"><?php _e( 'Contact', 'amvdm' ); ?></a>
+                        </li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -106,7 +118,7 @@
                             <p class="tp-caption sft tp-resizeme tplast" data-x="center" data-y="310" data-speed="500" data-start="2000" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" style="z-index: 5;"><?php the_field('main_subtitle') ?></p>
                             <!-- LAYER NR. 3 -->
                             <div class="tp-caption tp-button sft tp-resizeme" data-x="center" data-y="420" data-speed="500" data-start="2800" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-linktoslide="next" style="z-index: 12;"> 
-                                <a href="#responsive" class="hvr-outline-out btn"><?php _e( 'Call Us', 'amvdm' ); ?></a> 
+                                <a href="#contact" class="hvr-outline-out btn"><?php _e( 'Contact Us', 'amvdm' ); ?></a> 
                                 <a href="tel:3107511911" class="btn hvr-shutter-out-vertical"><?php _e( '+1.310.751.1911', 'amvdm' ); ?></a> 
                             </div>
                         </li>
@@ -220,7 +232,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="btn-more"> 
-                                        <a target="_blank" download href="<?php echo esc_url( the_field('about_us_pdf') ); ?>" class="more wow"><?php _e( 'PDF', 'amvdm' ); ?><i class="fa fa-angle-right"></i></a> 
+                                        <a target="_blank" download href="<?php echo esc_url( the_field('about_us_pdf') ); ?>" class="more wow"><?php _e( 'READ MORE (PDF)', 'amvdm' ); ?><i class="fa fa-angle-right"></i></a> 
                                     </div>
                                 </div>
                             </div>
@@ -301,7 +313,7 @@
                 </div>
                 <div class="row">
                     <div class="btn-more"> 
-                        <a target="_blank" download href="<?php the_field('streamcloud_pdf') ?>" class="more wow"><?php _e( 'PDF', 'amvdm' ); ?><i class="fa fa-angle-right"></i></a> 
+                        <a target="_blank" download href="<?php the_field('streamcloud_pdf') ?>" class="more wow"><?php _e( 'READ MORE (PDF)', 'amvdm' ); ?><i class="fa fa-angle-right"></i></a> 
                     </div>
                 </div>
             </div>
@@ -320,10 +332,10 @@
                         </div>
                         <h2 class="head-title"><?php _e( 'Leadership Team', 'amvdm' ); ?></h2>
                     </div>
-                    <div class="col-md-4 col-xs-6">
+                    <div class="col-md-4 col-xs-6 col-md-push-1">
                         <div class="team-wrap">
                             <div class="team-image"> 
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/staff/ian670x670.jpg" alt="Ian Dittbrenner" class="img-responsive">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/staff/ian670x670.jpg" alt="Ian Dittbrenner" class="img-responsive img-team">
                                 <div class="overlay">
                                     <div class="overlay-inner">
                                         <ul class="social-link"> 
@@ -342,10 +354,10 @@
                             <p></p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-xs-6">
+                    <div class="col-md-4 col-xs-6 col-md-push-3">
                         <div class="team-wrap">
                             <div class="team-image"> 
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/staff/carl.jpg" alt="Carl Burmeister" class="img-responsive">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/staff/carl.jpg" alt="Carl Burmeister" class="img-responsive img-team">
                                 <div class="overlay">
                                     <div class="overlay-inner">
                                         <ul class="social-link">
@@ -640,7 +652,7 @@
                             <a target="_blank" href="https://twitter.com/AMV_DM"><i class="fa fa-twitter"></i></a> 
                             <a href="https://www.linkedin.com/company/1042984" target="_blank"><i class="fa fa-linkedin"></i></a>
                         </div>
-                        <p class="pull-left copyright"><?php _e( 'COPYRIGHT (©) 2019', 'amvdm' ); ?> </p>
+                        <p style="padding-right:8px;" class="pull-left copyright"><?php _e( 'COPYRIGHT (©) 2019', 'amvdm' ); ?> </p>
                         <p class="pull-left copyright"> <?php _e( 'AMV Digital Media LLC', 'amvdm' ); ?></p>
                     </div>
                 </div>
